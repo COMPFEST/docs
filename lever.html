@@ -1,0 +1,715 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Table Description for Services Advprog</title><style>@charset "UTF-8";@import 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.css';code{color:#c7254e;background-color:#f9f2f4;border-radius:4px}code,kbd{padding:2px 4px}kbd{color:#fff;background-color:#333;border-radius:3px;box-shadow:inset 0 -1px 0 rgba(0,0,0,.25)}kbd kbd{padding:0;font-size:100%;box-shadow:none}pre{display:block;margin:0 0 10px;word-break:break-all;word-wrap:break-word;color:#333;background-color:#f5f5f5;border:1px solid #ccc;border-radius:4px}pre code{padding:0;font-size:inherit;color:inherit;white-space:pre-wrap;background-color:transparent;border-radius:0}.pre-scrollable{max-height:340px;overflow-y:scroll}table{background-color:transparent}th{text-align:left}.table{width:100%;max-width:100%;margin-bottom:20px}.table>thead>tr>th{padding:8px;line-height:1.4285714;border-top:1px solid #ddd}.table>thead>tr>td,.table>tbody>tr>th,.table>tbody>tr>td,.table>tfoot>tr>th,.table>tfoot>tr>td{padding:8px;line-height:1.4285714;vertical-align:top;border-top:1px solid #ddd}.table>thead>tr>th{vertical-align:bottom;border-bottom:2px solid #ddd}.table>caption+thead>tr:first-child>th,.table>caption+thead>tr:first-child>td,.table>colgroup+thead>tr:first-child>th,.table>colgroup+thead>tr:first-child>td,.table>thead:first-child>tr:first-child>th,.table>thead:first-child>tr:first-child>td{border-top:0}.table>tbody+tbody{border-top:2px solid #ddd}.table .table{background-color:#fff}.table-condensed>thead>tr>th,.table-condensed>thead>tr>td,.table-condensed>tbody>tr>th,.table-condensed>tbody>tr>td,.table-condensed>tfoot>tr>th,.table-condensed>tfoot>tr>td{padding:5px}.table-bordered,.table-bordered>thead>tr>th,.table-bordered>thead>tr>td,.table-bordered>tbody>tr>th,.table-bordered>tbody>tr>td,.table-bordered>tfoot>tr>th,.table-bordered>tfoot>tr>td{border:1px solid #ddd}.table-bordered>thead>tr>th,.table-bordered>thead>tr>td{border-bottom-width:2px}.table-striped>tbody>tr:nth-child(odd)>td,.table-striped>tbody>tr:nth-child(odd)>th{background-color:#f9f9f9}.table-hover>tbody>tr:hover>td,.table-hover>tbody>tr:hover>th{background-color:#f5f5f5}table col[class*="col-"]{position:static;float:none;display:table-column}table td[class*="col-"],table th[class*="col-"]{position:static;float:none;display:table-cell}.table>thead>tr>td.active,.table>thead>tr>th.active,.table>thead>tr.active>td,.table>thead>tr.active>th,.table>tbody>tr>td.active,.table>tbody>tr>th.active,.table>tbody>tr.active>td,.table>tbody>tr.active>th,.table>tfoot>tr>td.active,.table>tfoot>tr>th.active,.table>tfoot>tr.active>td,.table>tfoot>tr.active>th{background-color:#f5f5f5}.table-hover>tbody>tr>td.active:hover,.table-hover>tbody>tr>th.active:hover,.table-hover>tbody>tr.active:hover>td,.table-hover>tbody>tr:hover>.active,.table-hover>tbody>tr.active:hover>th{background-color:#e8e8e8}.table>thead>tr>td.success,.table>thead>tr>th.success,.table>thead>tr.success>td,.table>thead>tr.success>th,.table>tbody>tr>td.success,.table>tbody>tr>th.success,.table>tbody>tr.success>td,.table>tbody>tr.success>th,.table>tfoot>tr>td.success,.table>tfoot>tr>th.success,.table>tfoot>tr.success>td,.table>tfoot>tr.success>th{background-color:#dff0d8}.table-hover>tbody>tr>td.success:hover,.table-hover>tbody>tr>th.success:hover,.table-hover>tbody>tr.success:hover>td,.table-hover>tbody>tr:hover>.success,.table-hover>tbody>tr.success:hover>th{background-color:#d0e9c6}.table>thead>tr>td.info,.table>thead>tr>th.info,.table>thead>tr.info>td,.table>thead>tr.info>th,.table>tbody>tr>td.info,.table>tbody>tr>th.info,.table>tbody>tr.info>td,.table>tbody>tr.info>th,.table>tfoot>tr>td.info,.table>tfoot>tr>th.info,.table>tfoot>tr.info>td,.table>tfoot>tr.info>th{background-color:#d9edf7}.table-hover>tbody>tr>td.info:hover,.table-hover>tbody>tr>th.info:hover,.table-hover>tbody>tr.info:hover>td,.table-hover>tbody>tr:hover>.info,.table-hover>tbody>tr.info:hover>th{background-color:#c4e3f3}.table>thead>tr>td.warning,.table>thead>tr>th.warning,.table>thead>tr.warning>td,.table>thead>tr.warning>th,.table>tbody>tr>td.warning,.table>tbody>tr>th.warning,.table>tbody>tr.warning>td,.table>tbody>tr.warning>th,.table>tfoot>tr>td.warning,.table>tfoot>tr>th.warning,.table>tfoot>tr.warning>td,.table>tfoot>tr.warning>th{background-color:#fcf8e3}.table-hover>tbody>tr>td.warning:hover,.table-hover>tbody>tr>th.warning:hover,.table-hover>tbody>tr.warning:hover>td,.table-hover>tbody>tr:hover>.warning,.table-hover>tbody>tr.warning:hover>th{background-color:#faf2cc}.table>thead>tr>td.danger,.table>thead>tr>th.danger,.table>thead>tr.danger>td,.table>thead>tr.danger>th,.table>tbody>tr>td.danger,.table>tbody>tr>th.danger,.table>tbody>tr.danger>td,.table>tbody>tr.danger>th,.table>tfoot>tr>td.danger,.table>tfoot>tr>th.danger,.table>tfoot>tr.danger>td,.table>tfoot>tr.danger>th{background-color:#f2dede}.table-hover>tbody>tr>td.danger:hover,.table-hover>tbody>tr>th.danger:hover,.table-hover>tbody>tr.danger:hover>td,.table-hover>tbody>tr:hover>.danger,.table-hover>tbody>tr.danger:hover>th{background-color:#ebcccc}fieldset{border:0;min-width:0}legend{display:block;width:100%;margin-bottom:20px;font-size:21px;line-height:inherit;color:#333;border-bottom:1px solid #e5e5e5}label{display:inline-block;max-width:100%;margin-bottom:5px;font-weight:700}input[type="radio"],input[type="checkbox"]{margin:4px 0 0;margin-top:1px \9;line-height:normal}input[type="file"]{display:block}input[type="range"]{display:block;width:100%}select[multiple],select[size]{height:auto}input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}output{padding-top:7px}output,.form-control{display:block;font-size:14px;line-height:1.4285714;color:#555}.form-control{width:100%;height:34px;padding:6px 12px;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;box-shadow:inset 0 1px 1px rgba(0,0,0,.075);transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}.form-control:focus{border-color:#66afe9;outline:0;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)}.form-control::-moz-placeholder{color:#777;opacity:1}.form-control:-ms-input-placeholder{color:#777}.form-control::-webkit-input-placeholder{color:#777}.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control{cursor:not-allowed;background-color:#eee;opacity:1}textarea.form-control{height:auto}input[type="date"],input[type="time"],input[type="datetime-local"],input[type="month"]{line-height:34px;line-height:1.4285714 \0}input[type="date"].input-sm,.form-horizontal .form-group-sm input.form-control[type="date"],.input-group-sm>input.form-control[type="date"],.input-group-sm>input.input-group-addon[type="date"],.input-group-sm>.input-group-btn>input.btn[type="date"],input[type="time"].input-sm,.form-horizontal .form-group-sm input.form-control[type="time"],.input-group-sm>input.form-control[type="time"],.input-group-sm>input.input-group-addon[type="time"],.input-group-sm>.input-group-btn>input.btn[type="time"],input[type="datetime-local"].input-sm,.form-horizontal .form-group-sm input.form-control[type="datetime-local"],.input-group-sm>input.form-control[type="datetime-local"],.input-group-sm>input.input-group-addon[type="datetime-local"],.input-group-sm>.input-group-btn>input.btn[type="datetime-local"],input[type="month"].input-sm,.form-horizontal .form-group-sm input.form-control[type="month"],.input-group-sm>input.form-control[type="month"],.input-group-sm>input.input-group-addon[type="month"],.input-group-sm>.input-group-btn>input.btn[type="month"]{line-height:30px}input[type="date"].input-lg,.form-horizontal .form-group-lg input.form-control[type="date"],.input-group-lg>input.form-control[type="date"],.input-group-lg>input.input-group-addon[type="date"],.input-group-lg>.input-group-btn>input.btn[type="date"],input[type="time"].input-lg,.form-horizontal .form-group-lg input.form-control[type="time"],.input-group-lg>input.form-control[type="time"],.input-group-lg>input.input-group-addon[type="time"],.input-group-lg>.input-group-btn>input.btn[type="time"],input[type="datetime-local"].input-lg,.form-horizontal .form-group-lg input.form-control[type="datetime-local"],.input-group-lg>input.form-control[type="datetime-local"],.input-group-lg>input.input-group-addon[type="datetime-local"],.input-group-lg>.input-group-btn>input.btn[type="datetime-local"],input[type="month"].input-lg,.form-horizontal .form-group-lg input.form-control[type="month"],.input-group-lg>input.form-control[type="month"],.input-group-lg>input.input-group-addon[type="month"],.input-group-lg>.input-group-btn>input.btn[type="month"]{line-height:46px}.form-group{margin-bottom:15px}.radio,.checkbox{position:relative;display:block;min-height:20px;margin-top:10px;margin-bottom:10px}.radio label,.checkbox label{padding-left:20px;margin-bottom:0;font-weight:400;cursor:pointer}.radio input[type="radio"],.radio-inline input[type="radio"],.checkbox input[type="checkbox"],.checkbox-inline input[type="checkbox"]{position:absolute;margin-left:-20px;margin-top:4px \9}.radio+.radio,.checkbox+.checkbox{margin-top:-5px}.radio-inline,.checkbox-inline{display:inline-block;padding-left:20px;margin-bottom:0;vertical-align:middle;font-weight:400;cursor:pointer}.radio-inline+.radio-inline,.checkbox-inline+.checkbox-inline{margin-top:0;margin-left:10px}input[type="radio"][disabled],input[type="radio"].disabled,fieldset[disabled] input[type="radio"],input[type="checkbox"][disabled],input[type="checkbox"].disabled,fieldset[disabled] input[type="checkbox"],.radio-inline.disabled,fieldset[disabled] .radio-inline,.checkbox-inline.disabled,fieldset[disabled] .checkbox-inline,.radio.disabled label,fieldset[disabled] .radio label,.checkbox.disabled label,fieldset[disabled] .checkbox label{cursor:not-allowed}.form-control-static{padding-top:7px;padding-bottom:7px;margin-bottom:0}.form-control-static.input-lg,.form-horizontal .form-group-lg .form-control-static.form-control,.input-group-lg>.form-control-static.form-control,.input-group-lg>.form-control-static.input-group-addon,.input-group-lg>.input-group-btn>.form-control-static.btn,.form-control-static.input-sm,.form-horizontal .form-group-sm .form-control-static.form-control,.input-group-sm>.form-control-static.form-control,.input-group-sm>.form-control-static.input-group-addon,.input-group-sm>.input-group-btn>.form-control-static.btn{padding-left:0;padding-right:0}.input-sm,.form-horizontal .form-group-sm .form-control,.input-group-sm>.form-control{height:30px;padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}.input-group-sm>.input-group-addon{height:30px;line-height:1.5}.input-group-sm>.input-group-btn>.btn{height:30px;padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}select.input-sm,.form-horizontal .form-group-sm select.form-control,.input-group-sm>select.form-control,.input-group-sm>select.input-group-addon,.input-group-sm>.input-group-btn>select.btn{height:30px;line-height:30px}textarea.input-sm,.form-horizontal .form-group-sm textarea.form-control,.input-group-sm>textarea.form-control,.input-group-sm>textarea.input-group-addon,.input-group-sm>.input-group-btn>textarea.btn,select[multiple].input-sm,.form-horizontal .form-group-sm select.form-control[multiple],.input-group-sm>select.form-control[multiple],.input-group-sm>select.input-group-addon[multiple],.input-group-sm>.input-group-btn>select.btn[multiple]{height:auto}.input-lg,.form-horizontal .form-group-lg .form-control,.input-group-lg>.form-control{height:46px;padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px}.input-group-lg>.input-group-addon{height:46px;line-height:1.33}.input-group-lg>.input-group-btn>.btn{height:46px;padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px}select.input-lg,.form-horizontal .form-group-lg select.form-control,.input-group-lg>select.form-control,.input-group-lg>select.input-group-addon,.input-group-lg>.input-group-btn>select.btn{height:46px;line-height:46px}textarea.input-lg,.form-horizontal .form-group-lg textarea.form-control,.input-group-lg>textarea.form-control,.input-group-lg>textarea.input-group-addon,.input-group-lg>.input-group-btn>textarea.btn,select[multiple].input-lg,.form-horizontal .form-group-lg select.form-control[multiple],.input-group-lg>select.form-control[multiple],.input-group-lg>select.input-group-addon[multiple],.input-group-lg>.input-group-btn>select.btn[multiple]{height:auto}.has-feedback{position:relative}.has-feedback .form-control{padding-right:42.5px}.form-control-feedback{position:absolute;top:25px;right:0;z-index:2;display:block;width:34px;height:34px;line-height:34px;text-align:center}.input-lg+.form-control-feedback,.form-horizontal .form-group-lg .form-control+.form-control-feedback,.input-group-lg>.form-control+.form-control-feedback,.input-group-lg>.input-group-addon+.form-control-feedback,.input-group-lg>.input-group-btn>.btn+.form-control-feedback{width:46px;height:46px;line-height:46px}.input-sm+.form-control-feedback,.form-horizontal .form-group-sm .form-control+.form-control-feedback,.input-group-sm>.form-control+.form-control-feedback,.input-group-sm>.input-group-addon+.form-control-feedback,.input-group-sm>.input-group-btn>.btn+.form-control-feedback{width:30px;height:30px;line-height:30px}.has-success .help-block,.has-success .control-label,.has-success .radio,.has-success .checkbox,.has-success .radio-inline,.has-success .checkbox-inline{color:#3c763d}.has-success .form-control{border-color:#3c763d;box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.has-success .form-control:focus{border-color:#2b542c;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #67b168}.has-success .input-group-addon{color:#3c763d;border-color:#3c763d;background-color:#dff0d8}.has-success .form-control-feedback{color:#3c763d}.has-warning .help-block,.has-warning .control-label,.has-warning .radio,.has-warning .checkbox,.has-warning .radio-inline,.has-warning .checkbox-inline{color:#8a6d3b}.has-warning .form-control{border-color:#8a6d3b;box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.has-warning .form-control:focus{border-color:#66512c;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #c0a16b}.has-warning .input-group-addon{color:#8a6d3b;border-color:#8a6d3b;background-color:#fcf8e3}.has-warning .form-control-feedback{color:#8a6d3b}.has-error .help-block,.has-error .control-label,.has-error .radio,.has-error .checkbox,.has-error .radio-inline,.has-error .checkbox-inline{color:#a94442}.has-error .form-control{border-color:#a94442;box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.has-error .form-control:focus{border-color:#843534;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483}.has-error .input-group-addon{color:#a94442;border-color:#a94442;background-color:#f2dede}.has-error .form-control-feedback{color:#a94442}.has-feedback label.sr-only~.form-control-feedback{top:0}.help-block{display:block;margin-top:5px;margin-bottom:10px;color:#737373}.form-horizontal .radio,.form-horizontal .checkbox,.form-horizontal .radio-inline,.form-horizontal .checkbox-inline{margin-top:0;margin-bottom:0;padding-top:7px}.form-horizontal .radio,.form-horizontal .checkbox{min-height:27px}.form-horizontal .form-group{margin-left:-15px;margin-right:-15px}.form-horizontal .form-group:before{content:" ";display:table}.form-horizontal .form-group:after{content:" ";display:table;clear:both}.form-horizontal .has-feedback .form-control-feedback{top:0;right:15px}.btn{display:inline-block;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.btn:focus,.btn:active:focus,.btn.active:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.btn:hover,.btn:focus{color:#333;text-decoration:none}.btn:active,.btn.active{outline:0;background-image:none;box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.btn.disabled,.btn[disabled],fieldset[disabled] .btn{cursor:not-allowed;pointer-events:none;opacity:.65;filter:alpha(opacity=65);box-shadow:none}.btn-default{color:#333;background-color:#fff;border-color:#ccc}.btn-default:hover,.btn-default:focus,.btn-default:active,.btn-default.active,.open>.btn-default.dropdown-toggle{color:#333;background-color:#e6e6e6;border-color:#adadad}.btn-default:active,.btn-default.active,.open>.btn-default.dropdown-toggle{background-image:none}.btn-default.disabled,.btn-default.disabled:hover,.btn-default.disabled:focus,.btn-default.disabled:active,.btn-default.disabled.active,.btn-default[disabled],.btn-default[disabled]:hover,.btn-default[disabled]:focus,.btn-default[disabled]:active,.btn-default[disabled].active,fieldset[disabled] .btn-default,fieldset[disabled] .btn-default:hover,fieldset[disabled] .btn-default:focus,fieldset[disabled] .btn-default:active,fieldset[disabled] .btn-default.active{background-color:#fff;border-color:#ccc}.btn-default .badge{color:#fff;background-color:#333}.btn-primary{color:#fff;background-color:#428bca;border-color:#357ebd}.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open>.btn-primary.dropdown-toggle{color:#fff;background-color:#3071a9;border-color:#285e8e}.btn-primary:active,.btn-primary.active,.open>.btn-primary.dropdown-toggle{background-image:none}.btn-primary.disabled,.btn-primary.disabled:hover,.btn-primary.disabled:focus,.btn-primary.disabled:active,.btn-primary.disabled.active,.btn-primary[disabled],.btn-primary[disabled]:hover,.btn-primary[disabled]:focus,.btn-primary[disabled]:active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary,fieldset[disabled] .btn-primary:hover,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:active,fieldset[disabled] .btn-primary.active{background-color:#428bca;border-color:#357ebd}.btn-primary .badge{color:#428bca;background-color:#fff}.btn-success{color:#fff;background-color:#5cb85c;border-color:#4cae4c}.btn-success:hover,.btn-success:focus,.btn-success:active,.btn-success.active,.open>.btn-success.dropdown-toggle{color:#fff;background-color:#449d44;border-color:#398439}.btn-success:active,.btn-success.active,.open>.btn-success.dropdown-toggle{background-image:none}.btn-success.disabled,.btn-success.disabled:hover,.btn-success.disabled:focus,.btn-success.disabled:active,.btn-success.disabled.active,.btn-success[disabled],.btn-success[disabled]:hover,.btn-success[disabled]:focus,.btn-success[disabled]:active,.btn-success[disabled].active,fieldset[disabled] .btn-success,fieldset[disabled] .btn-success:hover,fieldset[disabled] .btn-success:focus,fieldset[disabled] .btn-success:active,fieldset[disabled] .btn-success.active{background-color:#5cb85c;border-color:#4cae4c}.btn-success .badge{color:#5cb85c;background-color:#fff}.btn-info{color:#fff;background-color:#5bc0de;border-color:#46b8da}.btn-info:hover,.btn-info:focus,.btn-info:active,.btn-info.active,.open>.btn-info.dropdown-toggle{color:#fff;background-color:#31b0d5;border-color:#269abc}.btn-info:active,.btn-info.active,.open>.btn-info.dropdown-toggle{background-image:none}.btn-info.disabled,.btn-info.disabled:hover,.btn-info.disabled:focus,.btn-info.disabled:active,.btn-info.disabled.active,.btn-info[disabled],.btn-info[disabled]:hover,.btn-info[disabled]:focus,.btn-info[disabled]:active,.btn-info[disabled].active,fieldset[disabled] .btn-info,fieldset[disabled] .btn-info:hover,fieldset[disabled] .btn-info:focus,fieldset[disabled] .btn-info:active,fieldset[disabled] .btn-info.active{background-color:#5bc0de;border-color:#46b8da}.btn-info .badge{color:#5bc0de;background-color:#fff}.btn-warning{color:#fff;background-color:#f0ad4e;border-color:#eea236}.btn-warning:hover,.btn-warning:focus,.btn-warning:active,.btn-warning.active,.open>.btn-warning.dropdown-toggle{color:#fff;background-color:#ec971f;border-color:#d58512}.btn-warning:active,.btn-warning.active,.open>.btn-warning.dropdown-toggle{background-image:none}.btn-warning.disabled,.btn-warning.disabled:hover,.btn-warning.disabled:focus,.btn-warning.disabled:active,.btn-warning.disabled.active,.btn-warning[disabled],.btn-warning[disabled]:hover,.btn-warning[disabled]:focus,.btn-warning[disabled]:active,.btn-warning[disabled].active,fieldset[disabled] .btn-warning,fieldset[disabled] .btn-warning:hover,fieldset[disabled] .btn-warning:focus,fieldset[disabled] .btn-warning:active,fieldset[disabled] .btn-warning.active{background-color:#f0ad4e;border-color:#eea236}.btn-warning .badge{color:#f0ad4e;background-color:#fff}.btn-danger{color:#fff;background-color:#d9534f;border-color:#d43f3a}.btn-danger:hover,.btn-danger:focus,.btn-danger:active,.btn-danger.active,.open>.btn-danger.dropdown-toggle{color:#fff;background-color:#c9302c;border-color:#ac2925}.btn-danger:active,.btn-danger.active,.open>.btn-danger.dropdown-toggle{background-image:none}.btn-danger.disabled,.btn-danger.disabled:hover,.btn-danger.disabled:focus,.btn-danger.disabled:active,.btn-danger.disabled.active,.btn-danger[disabled],.btn-danger[disabled]:hover,.btn-danger[disabled]:focus,.btn-danger[disabled]:active,.btn-danger[disabled].active,fieldset[disabled] .btn-danger,fieldset[disabled] .btn-danger:hover,fieldset[disabled] .btn-danger:focus,fieldset[disabled] .btn-danger:active,fieldset[disabled] .btn-danger.active{background-color:#d9534f;border-color:#d43f3a}.btn-danger .badge{color:#d9534f;background-color:#fff}.btn-link{color:#428bca;font-weight:400;cursor:pointer;border-radius:0}.btn-link,.btn-link:active,.btn-link[disabled],fieldset[disabled] .btn-link{background-color:transparent;box-shadow:none}.btn-link,.btn-link:hover,.btn-link:focus,.btn-link:active{border-color:transparent}.btn-link:hover,.btn-link:focus{color:#2a6496;text-decoration:underline;background-color:transparent}.btn-link[disabled]:hover,.btn-link[disabled]:focus,fieldset[disabled] .btn-link:hover,fieldset[disabled] .btn-link:focus{color:#777;text-decoration:none}.btn-lg{padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px}.btn-sm{padding:5px 10px}.btn-sm,.btn-xs{font-size:12px;line-height:1.5;border-radius:3px}.btn-xs{padding:1px 5px}.btn-block{display:block;width:100%}.btn-block+.btn-block{margin-top:5px}input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"].btn-block{width:100%}.fade{opacity:0;transition:opacity .15s linear}.fade.in{opacity:1}.collapse{display:none}.collapse.in{display:block}tr.collapse.in{display:table-row}tbody.collapse.in{display:table-row-group}.collapsing{position:relative;height:0;overflow:hidden;transition:height .35s ease}.input-group{position:relative;display:table;border-collapse:separate}.input-group[class*="col-"]{float:none;padding-left:0;padding-right:0}.input-group .form-control{position:relative;z-index:2;float:left;width:100%;margin-bottom:0}.input-group-addon,.input-group-btn,.input-group .form-control{display:table-cell}.input-group-addon:not(:first-child):not(:last-child),.input-group-btn:not(:first-child):not(:last-child),.input-group .form-control:not(:first-child):not(:last-child){border-radius:0}.input-group-addon{white-space:nowrap}.input-group-addon,.input-group-btn{width:1%;vertical-align:middle}.input-group-addon{padding:6px 12px;font-size:14px;font-weight:400;line-height:1;color:#555;text-align:center;background-color:#eee;border:1px solid #ccc;border-radius:4px}.input-group-addon.input-sm,.form-horizontal .form-group-sm .input-group-addon.form-control,.input-group-sm>.input-group-addon,.input-group-sm>.input-group-btn>.input-group-addon.btn{padding:5px 10px;font-size:12px;border-radius:3px}.input-group-addon.input-lg,.form-horizontal .form-group-lg .input-group-addon.form-control,.input-group-lg>.input-group-addon,.input-group-lg>.input-group-btn>.input-group-addon.btn{padding:10px 16px;font-size:18px;border-radius:6px}.input-group-addon input[type="radio"],.input-group-addon input[type="checkbox"]{margin-top:0}.input-group .form-control:first-child,.input-group-addon:first-child,.input-group-btn:first-child>.btn,.input-group-btn:first-child>.btn-group>.btn,.input-group-btn:first-child>.dropdown-toggle,.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle),.input-group-btn:last-child>.btn-group:not(:last-child)>.btn{border-bottom-right-radius:0;border-top-right-radius:0}.input-group-addon:first-child{border-right:0}.input-group .form-control:last-child,.input-group-addon:last-child,.input-group-btn:last-child>.btn,.input-group-btn:last-child>.btn-group>.btn,.input-group-btn:last-child>.dropdown-toggle,.input-group-btn:first-child>.btn:not(:first-child),.input-group-btn:first-child>.btn-group:not(:first-child)>.btn{border-bottom-left-radius:0;border-top-left-radius:0}.input-group-addon:last-child{border-left:0}.input-group-btn{font-size:0;white-space:nowrap}.input-group-btn,.input-group-btn>.btn{position:relative}.input-group-btn>.btn+.btn{margin-left:-1px}.input-group-btn>.btn:hover,.input-group-btn>.btn:focus,.input-group-btn>.btn:active{z-index:2}.input-group-btn:first-child>.btn,.input-group-btn:first-child>.btn-group{margin-right:-1px}.input-group-btn:last-child>.btn,.input-group-btn:last-child>.btn-group{margin-left:-1px}.pagination{display:inline-block;padding-left:0;margin:20px 0;border-radius:4px}.pagination>li{display:inline}.pagination>li>a,.pagination>li>span{position:relative;float:left;padding:6px 12px;line-height:1.4285714;text-decoration:none;color:#428bca;background-color:#fff;border:1px solid #ddd;margin-left:-1px}.pagination>li:first-child>a,.pagination>li:first-child>span{margin-left:0;border-bottom-left-radius:4px;border-top-left-radius:4px}.pagination>li:last-child>a,.pagination>li:last-child>span{border-bottom-right-radius:4px;border-top-right-radius:4px}.pagination>li>a:hover,.pagination>li>a:focus,.pagination>li>span:hover,.pagination>li>span:focus{color:#2a6496;background-color:#eee;border-color:#ddd}.pagination>.active>a,.pagination>.active>a:hover,.pagination>.active>a:focus,.pagination>.active>span,.pagination>.active>span:hover,.pagination>.active>span:focus{z-index:2;color:#fff;background-color:#428bca;border-color:#428bca;cursor:default}.pagination>.disabled>span,.pagination>.disabled>span:hover,.pagination>.disabled>span:focus,.pagination>.disabled>a,.pagination>.disabled>a:hover,.pagination>.disabled>a:focus{color:#777;background-color:#fff;border-color:#ddd;cursor:not-allowed}.pagination-lg>li>a,.pagination-lg>li>span{padding:10px 16px;font-size:18px}.pagination-lg>li:first-child>a,.pagination-lg>li:first-child>span{border-bottom-left-radius:6px;border-top-left-radius:6px}.pagination-lg>li:last-child>a,.pagination-lg>li:last-child>span{border-bottom-right-radius:6px;border-top-right-radius:6px}.pagination-sm>li>a,.pagination-sm>li>span{padding:5px 10px;font-size:12px}.pagination-sm>li:first-child>a,.pagination-sm>li:first-child>span{border-bottom-left-radius:3px;border-top-left-radius:3px}.pagination-sm>li:last-child>a,.pagination-sm>li:last-child>span{border-bottom-right-radius:3px;border-top-right-radius:3px}.close{float:right;font-size:21px;font-weight:700;line-height:1;color:#000;text-shadow:0 1px 0 #fff;opacity:.2;filter:alpha(opacity=20)}.close:hover,.close:focus{color:#000;text-decoration:none;cursor:pointer;opacity:.5;filter:alpha(opacity=50)}button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance:none}.modal-open,.modal{overflow:hidden}.modal{display:none;position:fixed;top:0;right:0;bottom:0;left:0;z-index:1050;-webkit-overflow-scrolling:touch;outline:0}.modal.fade .modal-dialog{transform:translate3d(0,-25%,0);transition:transform .3s ease-out}.modal.in .modal-dialog{transform:translate3d(0,0,0)}.modal-open .modal{overflow-x:hidden;overflow-y:auto}.modal-dialog{position:relative;width:auto;margin:10px}.modal-content{position:relative;background-color:#fff;border:1px solid #999;border:1px solid rgba(0,0,0,.2);border-radius:6px;box-shadow:0 3px 9px rgba(0,0,0,.5);background-clip:padding-box;outline:0}.modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;background-color:#000}.modal-backdrop.fade{opacity:0;filter:alpha(opacity=0)}.modal-backdrop.in{opacity:.5;filter:alpha(opacity=50)}.modal-header{padding:15px;border-bottom:1px solid #e5e5e5;min-height:16.4285714px}.modal-header .close{margin-top:-2px}.modal-title{margin:0;line-height:1.4285714}.modal-body{position:relative;padding:15px}.modal-footer{padding:15px;text-align:right;border-top:1px solid #e5e5e5}.modal-footer:before,.modal-footer:after{content:" ";display:table}.modal-footer:after{clear:both}.modal-footer .btn+.btn{margin-left:5px;margin-bottom:0}.modal-footer .btn-group .btn+.btn{margin-left:-1px}.modal-footer .btn-block+.btn-block{margin-left:0}.modal-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right!important}.pull-left{float:left!important}.hide{display:none!important}.show{display:block!important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none!important;visibility:hidden!important}.affix{position:fixed;transform:translate3d(0,0,0)}.hljs{display:block;overflow-x:auto;padding:.5em;background:#002b36;color:#839496;-webkit-text-size-adjust:none}.hljs-comment,.hljs-template_comment,.diff .hljs-header,.hljs-doctype,.hljs-pi,.lisp .hljs-string,.hljs-javadoc{color:#586e75}.hljs-keyword,.hljs-winutils,.method,.hljs-addition,.css .hljs-tag,.hljs-request,.hljs-status,.nginx .hljs-title{color:#859900}.hljs-number,.hljs-command,.hljs-string,.hljs-tag .hljs-value,.hljs-rules .hljs-value,.hljs-phpdoc,.hljs-dartdoc,.tex .hljs-formula,.hljs-regexp,.hljs-hexcolor,.hljs-link_url{color:#2aa198}.hljs-title,.hljs-localvars,.hljs-chunk,.hljs-decorator,.hljs-built_in,.hljs-identifier,.vhdl .hljs-literal,.hljs-id,.css .hljs-function{color:#268bd2}.hljs-attribute,.hljs-variable,.lisp .hljs-body,.smalltalk .hljs-number,.hljs-constant,.hljs-class .hljs-title,.hljs-parent,.hljs-type,.hljs-link_reference{color:#b58900}.hljs-preprocessor,.hljs-preprocessor .hljs-keyword,.hljs-pragma,.hljs-shebang,.hljs-symbol,.hljs-symbol .hljs-string,.diff .hljs-change,.hljs-special,.hljs-attr_selector,.hljs-subst,.hljs-cdata,.css .hljs-pseudo,.hljs-header{color:#cb4b16}.hljs-deletion,.hljs-important{color:#dc322f}.hljs-link_label{color:#6c71c4}.tex .hljs-formula{background:#073642}*,*:before,*:after{box-sizing:border-box}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}images{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd{font-size:1em}code,kbd,pre,samp{font-family:monospace,monospace}samp{font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;margin-right:5px}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}.debug{background-color:#ffc0cb!important}.ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ir{background-color:transparent;border:0;overflow:hidden}.ir::before{content:'';display:block;height:150%;width:0}html{font-size:.875em;background:#fff;color:#373D49}html,body{font-family:Georgia,Cambria,serif;height:100%}body{font-size:1rem;font-weight:400;line-height:2rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}li{font-feature-settings:'kern' 1,'onum' 1,'liga' 1;margin-left:1rem}li>ul,li>ol{margin-bottom:0}p{padding-top:.66001rem;font-feature-settings:'kern' 1,'onum' 1,'liga' 1;margin-top:0}p,pre{margin-bottom:1.33999rem}pre{font-size:1rem;padding:.66001rem 9.5px 9.5px;line-height:2rem;background:linear-gradient(to bottom,#fff 0,#fff .75rem,#f5f7fa .75rem,#f5f7fa 2.75rem,#fff 2.75rem,#fff 4rem);background-size:100% 4rem;border-color:#D3DAEA}blockquote{margin:0}blockquote p{font-size:1rem;margin-bottom:.33999rem;font-style:italic;padding:.66001rem 1rem 1rem;border-left:3px solid #A0AABF}th,td{padding:12px}h1,h2,h3,h4,h5,h6{font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-feature-settings:'dlig' 1,'liga' 1,'lnum' 1,'kern' 1;font-style:normal;font-weight:600;margin-top:0}h1{line-height:3rem;font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h2,h3{line-height:3rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}a{cursor:pointer;color:#35D7BB;text-decoration:none}a:hover,a:focus{border-bottom-color:#35D7BB;color:#dff9f4}img{height:auto;max-width:100%}dt{font-style:italic;font-weight:600}.g{display:block}.g:after{clear:both;content:'';display:table}.g-b{float:left;margin:0;width:100%}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--center{display:block;float:none;margin:0 auto}.g-b--right{float:right}.g-b--1of1{width:100%}.g-b--1of2,.g-b--2of4,.g-b--3of6,.g-b--4of8,.g-b--5of10,.g-b--6of12{width:50%}.g-b--1of3,.g-b--2of6,.g-b--4of12{width:33.333%}.g-b--2of3,.g-b--4of6,.g-b--8of12{width:66.666%}.g-b--1of4,.g-b--2of8,.g-b--3of12{width:25%}.g-b--3of4,.g-b--6of8,.g-b--9of12{width:75%}.g-b--1of5,.g-b--2of10{width:20%}.g-b--2of5,.g-b--4of10{width:40%}.g-b--3of5,.g-b--6of10{width:60%}.g-b--4of5,.g-b--8of10{width:80%}.g-b--1of6,.g-b--2of12{width:16.666%}.g-b--5of6,.g-b--10of12{width:83.333%}.g-b--1of8{width:12.5%}.g-b--3of8{width:37.5%}.g-b--5of8{width:62.5%}.g-b--7of8{width:87.5%}.g-b--1of10{width:10%}.g-b--3of10{width:30%}.g-b--7of10{width:70%}.g-b--9of10{width:90%}.g-b--1of12{width:8.333%}.g-b--5of12{width:41.666%}.g-b--7of12{width:58.333%}.g-b--11of12{width:91.666%}.g-b--push--1of1{margin-left:100%}.g-b--push--1of2,.g-b--push--2of4,.g-b--push--3of6,.g-b--push--4of8,.g-b--push--5of10,.g-b--push--6of12{margin-left:50%}.g-b--push--1of3,.g-b--push--2of6,.g-b--push--4of12{margin-left:33.333%}.g-b--push--2of3,.g-b--push--4of6,.g-b--push--8of12{margin-left:66.666%}.g-b--push--1of4,.g-b--push--2of8,.g-b--push--3of12{margin-left:25%}.g-b--push--3of4,.g-b--push--6of8,.g-b--push--9of12{margin-left:75%}.g-b--push--1of5,.g-b--push--2of10{margin-left:20%}.g-b--push--2of5,.g-b--push--4of10{margin-left:40%}.g-b--push--3of5,.g-b--push--6of10{margin-left:60%}.g-b--push--4of5,.g-b--push--8of10{margin-left:80%}.g-b--push--1of6,.g-b--push--2of12{margin-left:16.666%}.g-b--push--5of6,.g-b--push--10of12{margin-left:83.333%}.g-b--push--1of8{margin-left:12.5%}.g-b--push--3of8{margin-left:37.5%}.g-b--push--5of8{margin-left:62.5%}.g-b--push--7of8{margin-left:87.5%}.g-b--push--1of10{margin-left:10%}.g-b--push--3of10{margin-left:30%}.g-b--push--7of10{margin-left:70%}.g-b--push--9of10{margin-left:90%}.g-b--push--1of12{margin-left:8.333%}.g-b--push--5of12{margin-left:41.666%}.g-b--push--7of12{margin-left:58.333%}.g-b--push--11of12{margin-left:91.666%}.g-b--pull--1of1{margin-right:100%}.g-b--pull--1of2,.g-b--pull--2of4,.g-b--pull--3of6,.g-b--pull--4of8,.g-b--pull--5of10,.g-b--pull--6of12{margin-right:50%}.g-b--pull--1of3,.g-b--pull--2of6,.g-b--pull--4of12{margin-right:33.333%}.g-b--pull--2of3,.g-b--pull--4of6,.g-b--pull--8of12{margin-right:66.666%}.g-b--pull--1of4,.g-b--pull--2of8,.g-b--pull--3of12{margin-right:25%}.g-b--pull--3of4,.g-b--pull--6of8,.g-b--pull--9of12{margin-right:75%}.g-b--pull--1of5,.g-b--pull--2of10{margin-right:20%}.g-b--pull--2of5,.g-b--pull--4of10{margin-right:40%}.g-b--pull--3of5,.g-b--pull--6of10{margin-right:60%}.g-b--pull--4of5,.g-b--pull--8of10{margin-right:80%}.g-b--pull--1of6,.g-b--pull--2of12{margin-right:16.666%}.g-b--pull--5of6,.g-b--pull--10of12{margin-right:83.333%}.g-b--pull--1of8{margin-right:12.5%}.g-b--pull--3of8{margin-right:37.5%}.g-b--pull--5of8{margin-right:62.5%}.g-b--pull--7of8{margin-right:87.5%}.g-b--pull--1of10{margin-right:10%}.g-b--pull--3of10{margin-right:30%}.g-b--pull--7of10{margin-right:70%}.g-b--pull--9of10{margin-right:90%}.g-b--pull--1of12{margin-right:8.333%}.g-b--pull--5of12{margin-right:41.666%}.g-b--pull--7of12{margin-right:58.333%}.g-b--pull--11of12{margin-right:91.666%}.splashscreen{position:fixed;top:0;left:0;width:100%;height:100%;background-color:#373D49;z-index:22}.splashscreen-dillinger{width:260px;height:auto;display:block;margin:0 auto;padding-bottom:3rem}.splashscreen p{font-size:1.25rem;padding-top:.56251rem;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;text-align:center;max-width:500px;margin:0 auto;color:#FFF}.sp-center{position:relative;transform:translateY(-50%);top:50%}.open-menu>.wrapper{overflow-x:hidden}.page{margin:0 auto;position:relative;top:0;left:0;width:100%;height:100%;z-index:2;transition:all .25s ease-in-out;background-color:#fff;padding-top:51px;will-change:left}.open-menu .page{left:270px}.title{line-height:1rem;font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem;font-weight:500;color:#A0AABF;letter-spacing:1px;text-transform:uppercase;padding-left:16px;padding-right:16px;margin-top:1rem}.split-preview .title{padding-left:0}.title-document{line-height:1rem;font-size:1.25rem;margin-bottom:.89999rem;padding-top:.10001rem;font-weight:400;font-family:"Ubuntu Mono",Monaco;color:#373D49;padding-left:16px;padding-right:16px;width:80%;min-width:300px;outline:0;border:none}.icon{display:block;margin:0 auto;width:36px;height:36px;border-radius:3px;text-align:center}.icon svg{display:inline-block;margin-left:auto;margin-right:auto}.icon-preview{background-color:#373D49;line-height:40px}.icon-preview svg{width:19px;height:12px}.icon-settings{background-color:#373D49;line-height:44px}.icon-settings svg{width:18px;height:18px}.icon-link{width:16px;height:16px;line-height:1;margin-right:24px;text-align:right}.navbar{background-color:#373D49;height:51px;width:100%;position:fixed;top:0;left:0;z-index:6;transition:all .25s ease-in-out;will-change:left}.navbar:after{content:"";display:table;clear:both}.open-menu .navbar{left:270px}.navbar-brand{float:left;margin:0 0 0 24px;padding:0;line-height:42px}.navbar-brand svg{width:85px;height:11px}.nav-left{float:left}.nav-right{float:right}.nav-sidebar{width:100%}.menu{list-style:none;margin:0;padding:0}.menu a{border:0;color:#A0AABF;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;outline:none;text-transform:uppercase}.menu a:hover{color:#35D7BB}.menu .menu-item{border:0;display:none;float:left;margin:0;position:relative}.menu .menu-item>a{display:block;font-size:12px;height:51px;letter-spacing:1px;line-height:51px;padding:0 24px}.menu .menu-item--settings,.menu .menu-item--preview,.menu .menu-item--save-to.in-sidebar,.menu .menu-item--import-from.in-sidebar,.menu .menu-item--link-unlink.in-sidebar,.menu .menu-item--documents.in-sidebar{display:block}.menu .menu-item--documents{padding-bottom:1rem}.menu .menu-item.open>a{background-color:#1D212A}.menu .menu-item-icon>a{height:auto;padding:0}.menu .menu-item-icon:hover>a{background-color:transparent}.menu .menu-link.open i{background-color:#1D212A}.menu .menu-link.open g{fill:#35D7BB}.menu .menu-link-preview,.menu .menu-link-settings{margin-top:8px;width:51px}.menu-sidebar{width:100%}.menu-sidebar .menu-item{float:none;margin-bottom:1px;width:100%}.menu-sidebar .menu-item.open>a{background-color:#373D49}.menu-sidebar .open .caret{transform:rotate(180deg)}.menu-sidebar>.menu-item:hover .dropdown a,.menu-sidebar>.menu-item:hover .settings a{background-color:transparent}.menu-sidebar .menu-link{background-color:#373D49;font-weight:600}.menu-sidebar .menu-link:after{content:"";display:table;clear:both}.menu-sidebar .menu-link>span{float:left}.menu-sidebar .menu-link>.caret{float:right;text-align:right;top:22px}.menu-sidebar .dropdown,.menu-sidebar .settings{background-color:transparent;position:static;width:100%}.dropdown{position:absolute;right:0;top:51px;width:188px}.dropdown,.settings{display:none;background-color:#1D212A}.dropdown{padding:0}.dropdown,.settings,.sidebar-list{list-style:none;margin:0}.sidebar-list{padding:0}.dropdown li{margin:32px 0;padding:0 0 0 32px}.dropdown li,.settings li{line-height:1}.sidebar-list li{line-height:1;margin:32px 0;padding:0 0 0 32px}.dropdown a{color:#D0D6E2}.dropdown a,.settings a,.sidebar-list a{display:block;text-transform:none}.sidebar-list a{color:#D0D6E2}.dropdown a:after,.settings a:after,.sidebar-list a:after{content:"";display:table;clear:both}.dropdown .icon,.settings .icon,.sidebar-list .icon{float:right}.open .dropdown,.open .settings,.open .sidebar-list{display:block}.open .dropdown.collapse,.open .collapse.settings,.open .sidebar-list.collapse{display:none}.open .dropdown.collapse.in,.open .collapse.in.settings,.open .sidebar-list.collapse.in{display:block}.dropdown .unlinked .icon,.settings .unlinked .icon,.sidebar-list .unlinked .icon{opacity:.3}.dropdown.documents li,.documents.settings li,.sidebar-list.documents li{background-image:url("../img/icons/file.svg");background-position:240px center;background-repeat:no-repeat;background-size:14px 16px;padding:3px 32px}.dropdown.documents li.octocat,.documents.settings li.octocat,.sidebar-list.documents li.octocat{background-image:url("../img/icons/octocat.svg");background-position:234px center;background-size:24px 24px}.dropdown.documents li:last-child,.documents.settings li:last-child,.sidebar-list.documents li:last-child{margin-bottom:1rem}.dropdown.documents li.active a,.documents.settings li.active a,.sidebar-list.documents li.active a{color:#35D7BB}.settings{position:fixed;top:67px;right:16px;border-radius:3px;width:288px;background-color:#373D49;padding:16px;z-index:7}.show-settings .settings{display:block}.settings .has-checkbox{float:left}.settings form{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:justify;justify-content:space-between}.settings input{width:20%}.settings a{font-size:1.25rem;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;-webkit-font-smoothing:antialiased;line-height:28px;color:#D0D6E2}.settings a:after{content:"";display:table;clear:both}.settings a:hover{color:#35D7BB}.settings li{border-bottom:1px solid #4F535B;margin:0;padding:16px 0}.settings li:last-child{border-bottom:none}.brand{border:none;display:block}.brand:hover g{fill:#35D7BB}.toggle{display:block;float:left;height:16px;padding:25px 16px 26px;width:40px}.toggle span:after,.toggle span:before{content:'';left:0;position:absolute;top:-6px}.toggle span:after{top:6px}.toggle span{display:block;position:relative}.toggle span,.toggle span:after,.toggle span:before{-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:#D3DAEA;height:2px;transition:all .3s;width:20px}.open-menu .toggle span{background-color:transparent}.open-menu .toggle span:before{transform:rotate(45deg) translate(3px,3px)}.open-menu .toggle span:after{transform:rotate(-45deg) translate(5px,-6px)}.caret{display:inline-block;width:0;height:0;margin-left:6px;vertical-align:middle;position:relative;top:-1px;border-top:4px solid;border-right:4px solid transparent;border-left:4px solid transparent}.sidebar{overflow:auto;height:100%;padding-right:15px;padding-bottom:15px;width:285px}.sidebar-wrapper{-webkit-overflow-scrolling:touch;background-color:#2B2F36;left:0;height:100%;overflow-y:hidden;position:fixed;top:0;width:285px;z-index:1}.sidebar-branding{width:160px;padding:0;margin:16px auto}.header{border-bottom:1px solid #E8E8E8;position:relative}.words,.characters{line-height:1rem;font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem;font-weight:500;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:1px;text-transform:uppercase;z-index:5;position:absolute;right:16px;top:0}.words span,.characters span{color:#A0AABF}.words .counter,.characters .counter{color:#000}.words+.characters{top:22px}.mr10{margin-right:10px}.btn{text-align:center;display:inline-block;width:100%;text-transform:uppercase;font-weight:600;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;text-shadow:0 1px 0 #1b8b77;padding:16px 24px;background-color:#35D7BB;border-radius:3px;margin:0 auto 16px;line-height:1;color:#fff;transition:all .15s linear;-webkit-font-smoothing:antialiased}.btn--new,.btn--save{display:block;width:238px}.btn--new:hover,.btn--new:focus,.btn--save:hover,.btn--save:focus{color:#fff;border-bottom-color:transparent;box-shadow:0 1px 3px #24b59c;text-shadow:0 1px 0 #24b59c}.btn--save{background-color:#4A5261;text-shadow:0 1px 1px #1e2127}.btn--save:hover,.btn--save:focus{color:#fff;border-bottom-color:transparent;box-shadow:0 1px 5px #08090a;text-shadow:none}.btn--delete{display:block;width:238px;background-color:transparent;font-size:12px;text-shadow:none}.btn--delete:hover,.btn--delete:focus{color:#fff;border-bottom-color:transparent;text-shadow:0 1px 0 #08090a;opacity:.8}.btn--delete-modal,.btn--ok,.btn--close{border-top:0;background-color:#4A5261;text-shadow:0 1px 0 #08090a;margin:0}.btn--delete-modal:hover,.btn--delete-modal:focus,.btn--ok:hover,.btn--ok:focus,.btn--close:hover,.btn--close:focus{color:#fff;background-color:#292d36;text-shadow:none}.btn--delete-modal{display:inline;width:auto}.overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(55,61,73,.8);transition:all .25s ease-in-out;transition-timing-function:ease-out;will-change:left,opacity,visibility;z-index:5;opacity:0;visibility:hidden}.show-settings .overlay{visibility:visible;opacity:1}.switch{float:right;line-height:1}.switch input{display:none}.switch small{display:inline-block;cursor:pointer;padding:0 24px 0 0;transition:all ease .2s;background-color:#2B2F36;border-color:#2B2F36}.switch small,.switch small:before{border-radius:30px;box-shadow:inset 0 0 2px 0 #14171F}.switch small:before{display:block;content:'';width:28px;height:28px;background:#fff}.switch.checked small{padding-right:0;padding-left:24px;background-color:#35D7BB;box-shadow:none}.modal--dillinger.about .modal-dialog{font-size:1.25rem;max-width:500px}.modal--dillinger.scope .modal-dialog{max-width:300px;margin:5rem auto}.modal--dillinger .modal-dialog{max-width:600px;width:auto;margin:5rem auto}.modal--dillinger .modal-content{background:#373D49;border-radius:3px;box-shadow:0 2px 5px 0 #2C3B59;color:#fff;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;padding:2rem}.modal--dillinger ul{list-style-type:disc;margin:1rem 0;padding:0 0 0 1rem}.modal--dillinger li{padding:0;margin:0}.modal--dillinger .modal-header{border:0;padding:0}.modal--dillinger .modal-body{padding:0}.modal--dillinger .modal-footer{border:0;padding:0}.modal--dillinger .close{color:#fff;opacity:1}.modal-backdrop{background-color:#373D49}.pagination--dillinger{padding:0!important;margin:1.5rem 0!important;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-line-pack:stretch;align-content:stretch}.pagination--dillinger li{display:-ms-flexbox;display:flex;-ms-flex-positive:1;flex-grow:1;text-align:center}.pagination--dillinger li:first-child>a,.pagination--dillinger li.disabled>a,.pagination--dillinger li.disabled>a:hover,.pagination--dillinger li.disabled>a:focus,.pagination--dillinger li>a{background-color:transparent;border-color:#4F535B;border-right-color:transparent}.pagination--dillinger li.active>a,.pagination--dillinger li.active>a:hover,.pagination--dillinger li.active>a:focus{border-color:#4A5261;background-color:#4A5261;color:#fff}.pagination--dillinger li>a{float:none;color:#fff;width:100%;display:block;text-align:center;margin:0;border-right-color:transparent;padding:6px}.pagination--dillinger li>a:hover,.pagination--dillinger li>a:focus{border-color:#35D7BB;background-color:#35D7BB;color:#fff}.pagination--dillinger li:last-child a{border-color:#4F535B}.pagination--dillinger li:first-child a{border-right-color:transparent}.diNotify{position:absolute;z-index:9999;left:0;right:0;top:0;margin:0 auto;max-width:400px;text-align:center;transition:top .5s ease-in-out,opacity .5s ease-in-out;visibility:hidden}.diNotify-body{-webkit-font-smoothing:antialiased;background-color:#35D7BB;background:#666E7F;border-radius:3px;color:#fff;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;overflow:hidden;padding:1rem 2rem .5rem;display:-ms-flexbox;display:flex;-ms-flex-align:baseline;align-items:baseline;-ms-flex-pack:center;justify-content:center}.diNotify-icon{display:block;width:16px;height:16px;line-height:16px;position:relative;top:3px}.diNotify-message{padding-left:1rem}.zen-wrapper{position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;z-index:10;background-color:#FFF;opacity:0;transition:opacity .25s ease-in-out}.zen-wrapper.on{opacity:1}.enter-zen-mode{background-image:url("../img/icons/enter-zen.svg");right:.5rem;top:.313rem;display:none}.enter-zen-mode,.close-zen-mode{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;background-repeat:no-repeat;width:32px;height:32px;display:block;position:absolute}.close-zen-mode{background-image:url("../img/icons/exit-zen.svg");right:1rem;top:1rem}.zen-page{position:relative;top:0;bottom:0;z-index:11;height:100%;width:100%}#zen{font-size:1.25rem;width:300px;height:80%;margin:0 auto;position:relative;top:10%}#zen:before,#zen:after{content:"";position:absolute;height:10%;width:100%;z-index:12;pointer-events:none}#preview .table{width:auto}.ui-resizable{position:relative}.ui-resizable-handle{position:absolute;font-size:.1px;z-index:99999;display:block}.ui-resizable-e{background-color:#666;border-right:8px solid #e8e8e8;border-left:1px solid #222;width:10px;z-index:88!important;position:relative}.ui-resizable-e:after{content:"-";display:block;position:absolute;top:calc(50% - 16px);left:0;height:25px;width:2px;background-color:rgba(0,0,0,.4);margin:3px}#editor{cursor:ew-resize;position:relative;z-index:auto}.profile-pic{float:left;width:250px}#_default_ a::before{color:#A0AABF}#_default_ img{display:none}#_default_ #_default_{display:block;float:left;max-width:38%;word-wrap:break-word}#_default_ .default-ad{display:none}#_default_ ._default_{display:block}#_default_ a{color:#35d7bb;text-decoration:none}#_default_ a:hover{color:#8ae8d8}#_default_ .default-image{display:none}#_default_ .default-title:after{content:" — "}#_default_ .default-title,#_default_ .default-text,#_default_ .default-description{display:inline}#_default_ .default-title{position:relative;font-weight:600;display:none}#_default_ a:before{position:relative;top:0;padding:5px;color:#a0aabf;content:"Ad";text-transform:uppercase;font-size:8px;font-family:Verdana,sans-serif}#_default_{display:block;float:left;max-width:38%;word-wrap:break-word}#_default_ ._default_{display:block;font-size:.75rem;height:51px;letter-spacing:1px;line-height:1rem;padding:18px 24px}body{max-width:1024px;margin:0 auto;overflow:auto;padding:2%}.split{overflow:scroll;padding:0!important;-webkit-overflow-scrolling:touch}.split-editor{padding-left:0;padding-right:0;position:relative;z-index:3}.show-preview .split-editor{display:none}.split-preview{background-color:#fff;display:none;top:0;position:relative;z-index:4}.show-preview .split-preview{display:block}#editor{font-size:1rem;font-family:"Ubuntu Mono",Monaco;font-weight:400;line-height:2rem;width:100%;height:100%}#editor .ace_gutter{-webkit-font-smoothing:antialiased}.editor-header{width:50%;float:left;border-bottom:1px solid #E8E8E8;position:relative}.editor-header--first{border-right:1px solid #E8E8E8}.editor-header .title{display:inline-block}.preview-html{padding:15px}.preview-html a{color:#A0AABF;text-decoration:underline}.preview-src{white-space:normal}.preview-mode-toggle-src{background-image:url("../img/icons/code.svg")}.preview-mode-toggle-src,.preview-mode-toggle-html{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;background-repeat:no-repeat;width:32px;height:32px;display:block;position:absolute;right:.5rem;top:.5rem;display:none}.preview-mode-toggle-html{background-image:url("../img/icons/eye.svg")}.sr-only{visibility:hidden;text-overflow:110%;overflow:hidden;top:-100px;position:absolute}.mnone{margin:0!important}@media screen and (min-width:27.5em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--m1of1{width:100%}.g-b--m1of2,.g-b--m2of4,.g-b--m3of6,.g-b--m4of8,.g-b--m5of10,.g-b--m6of12{width:50%}.g-b--m1of3,.g-b--m2of6,.g-b--m4of12{width:33.333%}.g-b--m2of3,.g-b--m4of6,.g-b--m8of12{width:66.666%}.g-b--m1of4,.g-b--m2of8,.g-b--m3of12{width:25%}.g-b--m3of4,.g-b--m6of8,.g-b--m9of12{width:75%}.g-b--m1of5,.g-b--m2of10{width:20%}.g-b--m2of5,.g-b--m4of10{width:40%}.g-b--m3of5,.g-b--m6of10{width:60%}.g-b--m4of5,.g-b--m8of10{width:80%}.g-b--m1of6,.g-b--m2of12{width:16.666%}.g-b--m5of6,.g-b--m10of12{width:83.333%}.g-b--m1of8{width:12.5%}.g-b--m3of8{width:37.5%}.g-b--m5of8{width:62.5%}.g-b--m7of8{width:87.5%}.g-b--m1of10{width:10%}.g-b--m3of10{width:30%}.g-b--m7of10{width:70%}.g-b--m9of10{width:90%}.g-b--m1of12{width:8.333%}.g-b--m5of12{width:41.666%}.g-b--m7of12{width:58.333%}.g-b--m11of12{width:91.666%}.g-b--push--m1of1{margin-left:100%}.g-b--push--m1of2,.g-b--push--m2of4,.g-b--push--m3of6,.g-b--push--m4of8,.g-b--push--m5of10,.g-b--push--m6of12{margin-left:50%}.g-b--push--m1of3,.g-b--push--m2of6,.g-b--push--m4of12{margin-left:33.333%}.g-b--push--m2of3,.g-b--push--m4of6,.g-b--push--m8of12{margin-left:66.666%}.g-b--push--m1of4,.g-b--push--m2of8,.g-b--push--m3of12{margin-left:25%}.g-b--push--m3of4,.g-b--push--m6of8,.g-b--push--m9of12{margin-left:75%}.g-b--push--m1of5,.g-b--push--m2of10{margin-left:20%}.g-b--push--m2of5,.g-b--push--m4of10{margin-left:40%}.g-b--push--m3of5,.g-b--push--m6of10{margin-left:60%}.g-b--push--m4of5,.g-b--push--m8of10{margin-left:80%}.g-b--push--m1of6,.g-b--push--m2of12{margin-left:16.666%}.g-b--push--m5of6,.g-b--push--m10of12{margin-left:83.333%}.g-b--push--m1of8{margin-left:12.5%}.g-b--push--m3of8{margin-left:37.5%}.g-b--push--m5of8{margin-left:62.5%}.g-b--push--m7of8{margin-left:87.5%}.g-b--push--m1of10{margin-left:10%}.g-b--push--m3of10{margin-left:30%}.g-b--push--m7of10{margin-left:70%}.g-b--push--m9of10{margin-left:90%}.g-b--push--m1of12{margin-left:8.333%}.g-b--push--m5of12{margin-left:41.666%}.g-b--push--m7of12{margin-left:58.333%}.g-b--push--m11of12{margin-left:91.666%}.g-b--pull--m1of1{margin-right:100%}.g-b--pull--m1of2,.g-b--pull--m2of4,.g-b--pull--m3of6,.g-b--pull--m4of8,.g-b--pull--m5of10,.g-b--pull--m6of12{margin-right:50%}.g-b--pull--m1of3,.g-b--pull--m2of6,.g-b--pull--m4of12{margin-right:33.333%}.g-b--pull--m2of3,.g-b--pull--m4of6,.g-b--pull--m8of12{margin-right:66.666%}.g-b--pull--m1of4,.g-b--pull--m2of8,.g-b--pull--m3of12{margin-right:25%}.g-b--pull--m3of4,.g-b--pull--m6of8,.g-b--pull--m9of12{margin-right:75%}.g-b--pull--m1of5,.g-b--pull--m2of10{margin-right:20%}.g-b--pull--m2of5,.g-b--pull--m4of10{margin-right:40%}.g-b--pull--m3of5,.g-b--pull--m6of10{margin-right:60%}.g-b--pull--m4of5,.g-b--pull--m8of10{margin-right:80%}.g-b--pull--m1of6,.g-b--pull--m2of12{margin-right:16.666%}.g-b--pull--m5of6,.g-b--pull--m10of12{margin-right:83.333%}.g-b--pull--m1of8{margin-right:12.5%}.g-b--pull--m3of8{margin-right:37.5%}.g-b--pull--m5of8{margin-right:62.5%}.g-b--pull--m7of8{margin-right:87.5%}.g-b--pull--m1of10{margin-right:10%}.g-b--pull--m3of10{margin-right:30%}.g-b--pull--m7of10{margin-right:70%}.g-b--pull--m9of10{margin-right:90%}.g-b--pull--m1of12{margin-right:8.333%}.g-b--pull--m5of12{margin-right:41.666%}.g-b--pull--m7of12{margin-right:58.333%}.g-b--pull--m11of12{margin-right:91.666%}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{margin-bottom:.89999rem;padding-top:.10001rem}.title-document,.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog,#zen{font-size:1.25rem}#zen{width:400px}#editor{font-size:1rem}}@media screen and (min-width:46.25em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--t1of1{width:100%}.g-b--t1of2,.g-b--t2of4,.g-b--t3of6,.g-b--t4of8,.g-b--t5of10,.g-b--t6of12{width:50%}.g-b--t1of3,.g-b--t2of6,.g-b--t4of12{width:33.333%}.g-b--t2of3,.g-b--t4of6,.g-b--t8of12{width:66.666%}.g-b--t1of4,.g-b--t2of8,.g-b--t3of12{width:25%}.g-b--t3of4,.g-b--t6of8,.g-b--t9of12{width:75%}.g-b--t1of5,.g-b--t2of10{width:20%}.g-b--t2of5,.g-b--t4of10{width:40%}.g-b--t3of5,.g-b--t6of10{width:60%}.g-b--t4of5,.g-b--t8of10{width:80%}.g-b--t1of6,.g-b--t2of12{width:16.666%}.g-b--t5of6,.g-b--t10of12{width:83.333%}.g-b--t1of8{width:12.5%}.g-b--t3of8{width:37.5%}.g-b--t5of8{width:62.5%}.g-b--t7of8{width:87.5%}.g-b--t1of10{width:10%}.g-b--t3of10{width:30%}.g-b--t7of10{width:70%}.g-b--t9of10{width:90%}.g-b--t1of12{width:8.333%}.g-b--t5of12{width:41.666%}.g-b--t7of12{width:58.333%}.g-b--t11of12{width:91.666%}.g-b--push--t1of1{margin-left:100%}.g-b--push--t1of2,.g-b--push--t2of4,.g-b--push--t3of6,.g-b--push--t4of8,.g-b--push--t5of10,.g-b--push--t6of12{margin-left:50%}.g-b--push--t1of3,.g-b--push--t2of6,.g-b--push--t4of12{margin-left:33.333%}.g-b--push--t2of3,.g-b--push--t4of6,.g-b--push--t8of12{margin-left:66.666%}.g-b--push--t1of4,.g-b--push--t2of8,.g-b--push--t3of12{margin-left:25%}.g-b--push--t3of4,.g-b--push--t6of8,.g-b--push--t9of12{margin-left:75%}.g-b--push--t1of5,.g-b--push--t2of10{margin-left:20%}.g-b--push--t2of5,.g-b--push--t4of10{margin-left:40%}.g-b--push--t3of5,.g-b--push--t6of10{margin-left:60%}.g-b--push--t4of5,.g-b--push--t8of10{margin-left:80%}.g-b--push--t1of6,.g-b--push--t2of12{margin-left:16.666%}.g-b--push--t5of6,.g-b--push--t10of12{margin-left:83.333%}.g-b--push--t1of8{margin-left:12.5%}.g-b--push--t3of8{margin-left:37.5%}.g-b--push--t5of8{margin-left:62.5%}.g-b--push--t7of8{margin-left:87.5%}.g-b--push--t1of10{margin-left:10%}.g-b--push--t3of10{margin-left:30%}.g-b--push--t7of10{margin-left:70%}.g-b--push--t9of10{margin-left:90%}.g-b--push--t1of12{margin-left:8.333%}.g-b--push--t5of12{margin-left:41.666%}.g-b--push--t7of12{margin-left:58.333%}.g-b--push--t11of12{margin-left:91.666%}.g-b--pull--t1of1{margin-right:100%}.g-b--pull--t1of2,.g-b--pull--t2of4,.g-b--pull--t3of6,.g-b--pull--t4of8,.g-b--pull--t5of10,.g-b--pull--t6of12{margin-right:50%}.g-b--pull--t1of3,.g-b--pull--t2of6,.g-b--pull--t4of12{margin-right:33.333%}.g-b--pull--t2of3,.g-b--pull--t4of6,.g-b--pull--t8of12{margin-right:66.666%}.g-b--pull--t1of4,.g-b--pull--t2of8,.g-b--pull--t3of12{margin-right:25%}.g-b--pull--t3of4,.g-b--pull--t6of8,.g-b--pull--t9of12{margin-right:75%}.g-b--pull--t1of5,.g-b--pull--t2of10{margin-right:20%}.g-b--pull--t2of5,.g-b--pull--t4of10{margin-right:40%}.g-b--pull--t3of5,.g-b--pull--t6of10{margin-right:60%}.g-b--pull--t4of5,.g-b--pull--t8of10{margin-right:80%}.g-b--pull--t1of6,.g-b--pull--t2of12{margin-right:16.666%}.g-b--pull--t5of6,.g-b--pull--t10of12{margin-right:83.333%}.g-b--pull--t1of8{margin-right:12.5%}.g-b--pull--t3of8{margin-right:37.5%}.g-b--pull--t5of8{margin-right:62.5%}.g-b--pull--t7of8{margin-right:87.5%}.g-b--pull--t1of10{margin-right:10%}.g-b--pull--t3of10{margin-right:30%}.g-b--pull--t7of10{margin-right:70%}.g-b--pull--t9of10{margin-right:90%}.g-b--pull--t1of12{margin-right:8.333%}.g-b--pull--t5of12{margin-right:41.666%}.g-b--pull--t7of12{margin-right:58.333%}.g-b--pull--t11of12{margin-right:91.666%}.splashscreen-dillinger{width:500px}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{font-size:1.25rem;margin-bottom:.89999rem;padding-top:.10001rem}.menu .menu-item--save-to,.menu .menu-item--import-from{display:block}.menu .menu-item--preview,.menu .menu-item--save-to.in-sidebar,.menu .menu-item--import-from.in-sidebar{display:none}.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog{font-size:1.25rem}.enter-zen-mode{display:block}.close-zen-mode{right:3rem;top:3rem}#zen{font-size:1.25rem;width:500px}.split-editor{border-right:1px solid #E8E8E8;float:left;padding-right:16px;width:50%}.show-preview .split-editor{display:block}.split-preview{display:block;float:right;position:relative;top:0;width:50%}#editor{font-size:1rem}.preview-mode-toggle-src,.preview-mode-toggle-html{display:block}}@media screen and (min-width:62.5em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--d1of1{width:100%}.g-b--d1of2,.g-b--d2of4,.g-b--d3of6,.g-b--d4of8,.g-b--d5of10,.g-b--d6of12{width:50%}.g-b--d1of3,.g-b--d2of6,.g-b--d4of12{width:33.333%}.g-b--d2of3,.g-b--d4of6,.g-b--d8of12{width:66.666%}.g-b--d1of4,.g-b--d2of8,.g-b--d3of12{width:25%}.g-b--d3of4,.g-b--d6of8,.g-b--d9of12{width:75%}.g-b--d1of5,.g-b--d2of10{width:20%}.g-b--d2of5,.g-b--d4of10{width:40%}.g-b--d3of5,.g-b--d6of10{width:60%}.g-b--d4of5,.g-b--d8of10{width:80%}.g-b--d1of6,.g-b--d2of12{width:16.666%}.g-b--d5of6,.g-b--d10of12{width:83.333%}.g-b--d1of8{width:12.5%}.g-b--d3of8{width:37.5%}.g-b--d5of8{width:62.5%}.g-b--d7of8{width:87.5%}.g-b--d1of10{width:10%}.g-b--d3of10{width:30%}.g-b--d7of10{width:70%}.g-b--d9of10{width:90%}.g-b--d1of12{width:8.333%}.g-b--d5of12{width:41.666%}.g-b--d7of12{width:58.333%}.g-b--d11of12{width:91.666%}.g-b--push--d1of1{margin-left:100%}.g-b--push--d1of2,.g-b--push--d2of4,.g-b--push--d3of6,.g-b--push--d4of8,.g-b--push--d5of10,.g-b--push--d6of12{margin-left:50%}.g-b--push--d1of3,.g-b--push--d2of6,.g-b--push--d4of12{margin-left:33.333%}.g-b--push--d2of3,.g-b--push--d4of6,.g-b--push--d8of12{margin-left:66.666%}.g-b--push--d1of4,.g-b--push--d2of8,.g-b--push--d3of12{margin-left:25%}.g-b--push--d3of4,.g-b--push--d6of8,.g-b--push--d9of12{margin-left:75%}.g-b--push--d1of5,.g-b--push--d2of10{margin-left:20%}.g-b--push--d2of5,.g-b--push--d4of10{margin-left:40%}.g-b--push--d3of5,.g-b--push--d6of10{margin-left:60%}.g-b--push--d4of5,.g-b--push--d8of10{margin-left:80%}.g-b--push--d1of6,.g-b--push--d2of12{margin-left:16.666%}.g-b--push--d5of6,.g-b--push--d10of12{margin-left:83.333%}.g-b--push--d1of8{margin-left:12.5%}.g-b--push--d3of8{margin-left:37.5%}.g-b--push--d5of8{margin-left:62.5%}.g-b--push--d7of8{margin-left:87.5%}.g-b--push--d1of10{margin-left:10%}.g-b--push--d3of10{margin-left:30%}.g-b--push--d7of10{margin-left:70%}.g-b--push--d9of10{margin-left:90%}.g-b--push--d1of12{margin-left:8.333%}.g-b--push--d5of12{margin-left:41.666%}.g-b--push--d7of12{margin-left:58.333%}.g-b--push--d11of12{margin-left:91.666%}.g-b--pull--d1of1{margin-right:100%}.g-b--pull--d1of2,.g-b--pull--d2of4,.g-b--pull--d3of6,.g-b--pull--d4of8,.g-b--pull--d5of10,.g-b--pull--d6of12{margin-right:50%}.g-b--pull--d1of3,.g-b--pull--d2of6,.g-b--pull--d4of12{margin-right:33.333%}.g-b--pull--d2of3,.g-b--pull--d4of6,.g-b--pull--d8of12{margin-right:66.666%}.g-b--pull--d1of4,.g-b--pull--d2of8,.g-b--pull--d3of12{margin-right:25%}.g-b--pull--d3of4,.g-b--pull--d6of8,.g-b--pull--d9of12{margin-right:75%}.g-b--pull--d1of5,.g-b--pull--d2of10{margin-right:20%}.g-b--pull--d2of5,.g-b--pull--d4of10{margin-right:40%}.g-b--pull--d3of5,.g-b--pull--d6of10{margin-right:60%}.g-b--pull--d4of5,.g-b--pull--d8of10{margin-right:80%}.g-b--pull--d1of6,.g-b--pull--d2of12{margin-right:16.666%}.g-b--pull--d5of6,.g-b--pull--d10of12{margin-right:83.333%}.g-b--pull--d1of8{margin-right:12.5%}.g-b--pull--d3of8{margin-right:37.5%}.g-b--pull--d5of8{margin-right:62.5%}.g-b--pull--d7of8{margin-right:87.5%}.g-b--pull--d1of10{margin-right:10%}.g-b--pull--d3of10{margin-right:30%}.g-b--pull--d7of10{margin-right:70%}.g-b--pull--d9of10{margin-right:90%}.g-b--pull--d1of12{margin-right:8.333%}.g-b--pull--d5of12{margin-right:41.666%}.g-b--pull--d7of12{margin-right:58.333%}.g-b--pull--d11of12{margin-right:91.666%}.splashscreen-dillinger{width:700px}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{font-size:1.25rem;margin-bottom:.89999rem;padding-top:.10001rem}.menu .menu-item--export-as{display:block}.menu .menu-item--preview{display:none}.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog,#zen{font-size:1.25rem}#zen{width:700px}#editor{font-size:1rem}}@media screen and (min-width:87.5em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.splashscreen-dillinger{width:800px}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{margin-bottom:.89999rem;padding-top:.10001rem}.title-document,.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog,#zen{font-size:1.25rem}#editor{font-size:1rem}}@media (min-width:768px){.form-inline .form-group{display:inline-block;margin-bottom:0;vertical-align:middle}.form-inline .form-control{display:inline-block;width:auto;vertical-align:middle}.form-inline .input-group{display:inline-table;vertical-align:middle}.form-inline .input-group .input-group-addon,.form-inline .input-group .input-group-btn,.form-inline .input-group .form-control{width:auto}.form-inline .input-group>.form-control{width:100%}.form-inline .control-label{margin-bottom:0;vertical-align:middle}.form-inline .radio,.form-inline .checkbox{display:inline-block;margin-top:0;margin-bottom:0;vertical-align:middle}.form-inline .radio label,.form-inline .checkbox label{padding-left:0}.form-inline .radio input[type="radio"],.form-inline .checkbox input[type="checkbox"]{position:relative;margin-left:0}.form-inline .has-feedback .form-control-feedback{top:0}.form-horizontal .control-label{text-align:right;margin-bottom:0;padding-top:7px}.form-horizontal .form-group-lg .control-label{padding-top:14.3px}.form-horizontal .form-group-sm .control-label{padding-top:6px}.modal-dialog{width:600px;margin:30px auto}.modal-content{box-shadow:0 5px 15px rgba(0,0,0,.5)}.modal-sm{width:300px}}@media (min-width:992px){.modal-lg{width:900px}}@media screen and (max-width:1200px){#_default_{max-width:30%}#_default_ ._default_{font-size:.825rem;line-height:.875rem;padding:12px 12px 6px 24px;text-align:justify}}@media screen and (max-width:1100px){#_default_{max-width:27%}#_default_ ._default_{font-size:.8rem;line-height:.85rem;padding:12px 6px 6px 24px;text-align:justify}}@media screen and (max-width:1000px){#_default_{max-width:24%}#_default_ ._default_{font-size:.775rem;line-height:.8rem;padding:12px 6px 6px 24px;text-align:justify}}@media screen and (max-width:900px){#_default_{max-width:30%}}@media screen and (max-width:767px){.table-responsive{width:100%;margin-bottom:15px;overflow-y:hidden;overflow-x:auto;-ms-overflow-style:-ms-autohiding-scrollbar;border:1px solid #ddd;-webkit-overflow-scrolling:touch}.table-responsive>.table{margin-bottom:0}.table-responsive>.table>thead>tr>th,.table-responsive>.table>thead>tr>td,.table-responsive>.table>tbody>tr>th,.table-responsive>.table>tbody>tr>td,.table-responsive>.table>tfoot>tr>th,.table-responsive>.table>tfoot>tr>td{white-space:nowrap}.table-responsive>.table-bordered{border:0}.table-responsive>.table-bordered>thead>tr>th:first-child,.table-responsive>.table-bordered>thead>tr>td:first-child,.table-responsive>.table-bordered>tbody>tr>th:first-child,.table-responsive>.table-bordered>tbody>tr>td:first-child,.table-responsive>.table-bordered>tfoot>tr>th:first-child,.table-responsive>.table-bordered>tfoot>tr>td:first-child{border-left:0}.table-responsive>.table-bordered>thead>tr>th:last-child,.table-responsive>.table-bordered>thead>tr>td:last-child,.table-responsive>.table-bordered>tbody>tr>th:last-child,.table-responsive>.table-bordered>tbody>tr>td:last-child,.table-responsive>.table-bordered>tfoot>tr>th:last-child,.table-responsive>.table-bordered>tfoot>tr>td:last-child{border-right:0}.table-responsive>.table-bordered>tbody>tr:last-child>th,.table-responsive>.table-bordered>tbody>tr:last-child>td,.table-responsive>.table-bordered>tfoot>tr:last-child>th,.table-responsive>.table-bordered>tfoot>tr:last-child>td{border-bottom:0}}@media screen and (max-width:720px){#_default_{max-width:60%}#_default_ ._default_{font-size:.75rem;line-height:1rem;padding:12px 24px}}@media screen and (max-width:620px){#_default_{max-width:50%}#_default_ ._default_{font-size:.66rem;letter-spacing:1px;line-height:1rem;padding:10px 24px}}@media screen and (max-width:520px){#_default_ ._default_{font-size:.4rem;line-height:.875rem;padding:6px 12px 6px 24px;text-align:justify}}@media screen and (max-width:460px){#_default_{display:none}}@media screen and (max-width:46.1875em){.editor-header{display:none}.editor-header--first{display:block;width:100%}}</style></head><body id="preview">
+<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Quantum_Backend_Documentation_0"></a>Quantum Backend Documentation</h1>
+<h2 class="code-line" data-line-start=2 data-line-end=3 ><a id="Environments_2"></a>Environments</h2>
+<h3 class="code-line" data-line-start=4 data-line-end=5 ><a id="Production_4"></a>Production</h3>
+<ul>
+<li class="has-line-data" data-line-start="5" data-line-end="6"><strong>URL:</strong> <code>https://quantum.compfest.id</code></li>
+<li class="has-line-data" data-line-start="6" data-line-end="8"><strong>Secret:</strong> — <em>(To be provided)</em></li>
+</ul>
+<h3 class="code-line" data-line-start=8 data-line-end=9 ><a id="Development_8"></a>Development</h3>
+<ul>
+<li class="has-line-data" data-line-start="9" data-line-end="10"><strong>URL:</strong> <code>https://quantum-games-dev.fly.dev</code></li>
+<li class="has-line-data" data-line-start="10" data-line-end="12"><strong>Secret:</strong> <code>oqtZiTK6y1S8IwmbBMWHtw==</code> <em>(Ensure this is kept secure)</em></li>
+</ul>
+<hr>
+<h2 class="code-line" data-line-start=14 data-line-end=15 ><a id="Game_Build_Settings_Unity_14"></a>Game Build Settings (Unity)</h2>
+<ul>
+<li class="has-line-data" data-line-start="16" data-line-end="17"><strong>Platform:</strong> WebGL</li>
+<li class="has-line-data" data-line-start="17" data-line-end="21"><strong>Player Settings:</strong>
+<ul>
+<li class="has-line-data" data-line-start="18" data-line-end="19">Default Canvas Width: <code>310</code></li>
+<li class="has-line-data" data-line-start="19" data-line-end="21">Default Canvas Height: <code>570</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="code-line" data-line-start=23 data-line-end=24 ><a id="Request_Headers_23"></a>Request Headers</h2>
+<p class="has-line-data" data-line-start="25" data-line-end="26">These headers are required for authenticated requests to the backend endpoints (<code>/auth</code>, <code>/point</code>).</p>
+<h3 class="code-line" data-line-start=27 data-line-end=28 ><a id="XSignature_27"></a><code>X-Signature</code></h3>
+<ul>
+<li class="has-line-data" data-line-start="28" data-line-end="29">
+<p class="has-line-data" data-line-start="28" data-line-end="29"><strong>Description:</strong> Signature to protect requests between the game and backend. Generated using HMACSHA512 based on the request body, timestamp, endpoint path, and the environment’s secret key.</p>
+</li>
+<li class="has-line-data" data-line-start="29" data-line-end="38">
+<p class="has-line-data" data-line-start="29" data-line-end="30"><strong>Generation Logic:</strong></p>
+<ol>
+<li class="has-line-data" data-line-start="30" data-line-end="31">Compute the SHA256 hash of the raw JSON request body bytes.</li>
+<li class="has-line-data" data-line-start="31" data-line-end="32">Convert the hash to a lowercase hexadecimal string.</li>
+<li class="has-line-data" data-line-start="32" data-line-end="35">Create the signature base string: <code>&quot;{HTTP_METHOD}:{ENDPOINT_PATH}:{HEX_HASH}:{TIMESTAMP}&quot;</code>.
+<ul>
+<li class="has-line-data" data-line-start="33" data-line-end="34">Example for <code>/auth</code>: <code>&quot;POST:/auth:a1b2c3d4...:2023-10-27T10:00:00Z&quot;</code></li>
+<li class="has-line-data" data-line-start="34" data-line-end="35">Example for <code>/point</code>: <code>&quot;POST:/point:e5f6g7h8...:2023-10-27T10:05:00Z&quot;</code></li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="35" data-line-end="36">Compute the HMACSHA512 hash of the signature base string using the environment’s <strong>Secret</strong> key (UTF8 encoded).</li>
+<li class="has-line-data" data-line-start="36" data-line-end="38">Encode the resulting HMAC hash as a Base64 string. This is the value for the <code>X-Signature</code> header.</li>
+</ol>
+</li>
+<li class="has-line-data" data-line-start="38" data-line-end="112">
+<p class="has-line-data" data-line-start="38" data-line-end="39"><strong>Code Examples:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="40" data-line-end="69">
+<p class="has-line-data" data-line-start="40" data-line-end="41"><strong>C# / Unity C# / Godot C#</strong></p>
+<pre><code class="has-line-data" data-line-start="42" data-line-end="68" class="language-csharp"><span class="hljs-keyword">using</span> System;
+<span class="hljs-keyword">using</span> System.Security.Cryptography;
+<span class="hljs-keyword">using</span> System.Text;
+
+<span class="hljs-comment">// Ensure you have a variable 'SignatureSecret' holding the correct environment secret.</span>
+<span class="hljs-comment">// e.g., private const string SignatureSecret = "oqtZiTK6y1S8IwmbBMWHtw=="; // For Dev</span>
+
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> <span class="hljs-title">GenerateSignature</span>(<span class="hljs-params"><span class="hljs-keyword">byte</span>[] body, <span class="hljs-keyword">string</span> timestamp, <span class="hljs-keyword">string</span> endpointPath <span class="hljs-comment">/* e.g., "/auth" or "/point" */</span></span>)
+</span>{
+    <span class="hljs-keyword">byte</span>[] hashBody;
+    <span class="hljs-keyword">using</span> (SHA256 sha256 = SHA256.Create())
+    {
+        hashBody = sha256.ComputeHash(body);
+    }
+    <span class="hljs-comment">// Ensure BitConverter output is consistently lower-case hex</span>
+    <span class="hljs-keyword">string</span> hexHash = BitConverter.ToString(hashBody).Replace(<span class="hljs-string">"-"</span>, <span class="hljs-string">""</span>).ToLowerInvariant();
+
+    <span class="hljs-keyword">string</span> signatureBase = $<span class="hljs-string">"POST:{endpointPath}:{hexHash}:{timestamp}"</span>;
+
+    <span class="hljs-keyword">using</span> (<span class="hljs-keyword">var</span> hmac = <span class="hljs-keyword">new</span> HMACSHA512(Encoding.UTF8.GetBytes(SignatureSecret)))
+    {
+        <span class="hljs-keyword">byte</span>[] signatureBytes = hmac.ComputeHash(Encoding.UTF8.GetBytes(signatureBase));
+        <span class="hljs-keyword">return</span> Convert.ToBase64String(signatureBytes);
+    }
+}
+</code></pre>
+</li>
+<li class="has-line-data" data-line-start="69" data-line-end="112">
+<p class="has-line-data" data-line-start="69" data-line-end="70"><strong>Javascript (Example for Postman)</strong></p>
+<pre><code class="has-line-data" data-line-start="71" data-line-end="111" class="language-javascript"><span class="hljs-comment">// Postman Pre-request Script Example</span>
+<span class="hljs-keyword">const</span> crypto = <span class="hljs-built_in">require</span>(<span class="hljs-string">'crypto-js'</span>);
+
+<span class="hljs-comment">// Set the secret key in Postman environment variables</span>
+<span class="hljs-keyword">const</span> secretKey = pm.environment.get(<span class="hljs-string">"apiSecret"</span>); <span class="hljs-comment">// e.g., "oqtZiTK6y1S8IwmbBMWHtw=="</span>
+
+<span class="hljs-keyword">const</span> timeStamp = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>().toISOString();
+pm.request.headers.upsert({ key: <span class="hljs-string">"X-Timestamp"</span>, value: timeStamp });
+
+<span class="hljs-comment">// Ensure body is raw JSON and properly stringified without extra whitespace</span>
+<span class="hljs-keyword">const</span> rawBody = pm.request.body ? pm.request.body.raw.trim() : <span class="hljs-string">""</span>;
+<span class="hljs-keyword">let</span> bodyToHash = <span class="hljs-string">""</span>;
+<span class="hljs-keyword">if</span> (rawBody) {
+   <span class="hljs-keyword">try</span> {
+     <span class="hljs-comment">// Parse and restringify to ensure canonical format if needed</span>
+     <span class="hljs-keyword">const</span> jsonBody = <span class="hljs-built_in">JSON</span>.parse(rawBody);
+     bodyToHash = <span class="hljs-built_in">JSON</span>.stringify(jsonBody);
+   } <span class="hljs-keyword">catch</span> (e) {
+     bodyToHash = rawBody; <span class="hljs-comment">// Fallback to rawBody if not JSON</span>
+   }
+} <span class="hljs-keyword">else</span> {
+   bodyToHash = <span class="hljs-string">""</span>; <span class="hljs-comment">// Handle empty body</span>
+}
+
+<span class="hljs-comment">// Calculate SHA256 hash of the body</span>
+<span class="hljs-keyword">const</span> hashedBody = crypto.SHA256(bodyToHash).toString(crypto.enc.Hex);
+
+<span class="hljs-comment">// Construct the signature base string</span>
+<span class="hljs-comment">// Ensure the path matches the endpoint exactly (e.g., "/auth")</span>
+<span class="hljs-keyword">const</span> endpointPath = pm.request.url.getPath(); <span class="hljs-comment">// Adjust if necessary (e.g., ensure leading slash)</span>
+<span class="hljs-keyword">const</span> signatureString = <span class="hljs-string">`<span class="hljs-subst">${pm.request.method}</span>:<span class="hljs-subst">${endpointPath}</span>:<span class="hljs-subst">${hashedBody}</span>:<span class="hljs-subst">${timeStamp}</span>`</span>;
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Signature Base:"</span>, signatureString);
+
+<span class="hljs-comment">// Calculate HMACSHA512 signature</span>
+<span class="hljs-keyword">const</span> signature = crypto.HmacSHA512(signatureString, secretKey).toString(crypto.enc.Base64);
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Calculated Signature:"</span>, signature);
+
+<span class="hljs-comment">// Add the signature header</span>
+pm.request.headers.upsert({ key: <span class="hljs-string">"X-Signature"</span>, value: signature });
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<h3 class="code-line" data-line-start=112 data-line-end=113 ><a id="XTimestamp_112"></a><code>X-Timestamp</code></h3>
+<ul>
+<li class="has-line-data" data-line-start="113" data-line-end="114">
+<p class="has-line-data" data-line-start="113" data-line-end="114"><strong>Description:</strong> The UTC timestamp when the signature was generated, in ISO 8601 format (<code>yyyy-MM-ddTHH:mm:ssZ</code>). This <strong>must</strong> exactly match the timestamp used in the <code>X-Signature</code> calculation for the request to be valid.</p>
+</li>
+<li class="has-line-data" data-line-start="114" data-line-end="126">
+<p class="has-line-data" data-line-start="114" data-line-end="115"><strong>Code Examples:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="116" data-line-end="121">
+<p class="has-line-data" data-line-start="116" data-line-end="117"><strong>C# / Unity C# / Godot C#</strong></p>
+<pre><code class="has-line-data" data-line-start="118" data-line-end="120" class="language-csharp"><span class="hljs-keyword">string</span> timestamp = DateTime.UtcNow.ToString(<span class="hljs-string">"yyyy-MM-ddTHH:mm:ssZ"</span>);
+</code></pre>
+</li>
+<li class="has-line-data" data-line-start="121" data-line-end="126">
+<p class="has-line-data" data-line-start="121" data-line-end="122"><strong>Javascript</strong></p>
+<pre><code class="has-line-data" data-line-start="123" data-line-end="125" class="language-javascript"><span class="hljs-keyword">const</span> timestamp = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>().toISOString();
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="code-line" data-line-start=128 data-line-end=129 ><a id="API_Endpoints_128"></a>API Endpoints</h2>
+<h3 class="code-line" data-line-start=130 data-line-end=131 ><a id="POST_auth__Authenticate_User_130"></a><code>POST /auth</code> - Authenticate User</h3>
+<p class="has-line-data" data-line-start="132" data-line-end="133">Authenticates a user and arcade session using a unique code and an arcade identifier.</p>
+<ul>
+<li class="has-line-data" data-line-start="134" data-line-end="141">
+<p class="has-line-data" data-line-start="134" data-line-end="135"><strong>Headers:</strong></p>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Name</th>
+<th>Content</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>X-Signature</code></td>
+<td><em>Generated Signature</em></td>
+<td>Signature generated for this request (see above)</td>
+</tr>
+<tr>
+<td><code>X-Timestamp</code></td>
+<td><em>Current Timestamp</em></td>
+<td>Timestamp used for the signature (ISO 8601 UTC)</td>
+</tr>
+<tr>
+<td><code>Content-Type</code></td>
+<td><code>application/json</code></td>
+<td>Specifies request body format</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="has-line-data" data-line-start="141" data-line-end="145">
+<p class="has-line-data" data-line-start="141" data-line-end="142"><strong>Request Body DTO (<code>ValidateCodeRequestDto</code>):</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="142" data-line-end="143"><code>uniqueCode</code> (string): The unique code provided to the user.</li>
+<li class="has-line-data" data-line-start="143" data-line-end="145"><code>arcadeCode</code> (string): Identifier for the specific game/arcade machine (e.g., <code>ARCADE_1</code>, <code>ARCADE_MOMENTUM</code>). This identifies which game context the unique code is being used for.</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="145" data-line-end="153">
+<p class="has-line-data" data-line-start="145" data-line-end="146"><strong>Request Body Example:</strong></p>
+<pre><code class="has-line-data" data-line-start="147" data-line-end="152" class="language-json">{
+    "<span class="hljs-attribute">uniqueCode</span>": <span class="hljs-value"><span class="hljs-string">"user_provided_unique_code"</span></span>,
+    "<span class="hljs-attribute">arcadeCode</span>": <span class="hljs-value"><span class="hljs-string">"ARCADE_1"</span>
+</span>}
+</code></pre>
+</li>
+<li class="has-line-data" data-line-start="153" data-line-end="202">
+<p class="has-line-data" data-line-start="153" data-line-end="154"><strong>Responses:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="155" data-line-end="171">
+<p class="has-line-data" data-line-start="155" data-line-end="156"><strong><code>200 OK</code></strong> (Success)</p>
+<pre><code class="has-line-data" data-line-start="157" data-line-end="169" class="language-json">{
+    "success": true,
+    "message": "Success authenticate",
+    "data": {
+        "user": {
+            "userPlaygroundId": "8bba8f9c-3058-4277-9e24-fc4b8f87efda", // ID for the user
+            "username": "hehoaaxx"
+        },
+        "attemptId": "sV51FWd1vPHevFOHERV5N" // Unique ID for this specific authenticated game session/attempt
+    }
+}
+</code></pre>
+<p class="has-line-data" data-line-start="169" data-line-end="170"><em>(Note: You will need the <code>userPlaygroundId</code> from the <code>data.user</code> object for the <code>/point</code> request.)</em></p>
+</li>
+<li class="has-line-data" data-line-start="171" data-line-end="182">
+<p class="has-line-data" data-line-start="171" data-line-end="172"><strong><code>400 Bad Request</code></strong> (Maximum attempts reached for the code, or code already used/invalid in context)</p>
+<pre><code class="has-line-data" data-line-start="173" data-line-end="180" class="language-json">{
+    "success": false,
+    "message": "It looks like you've hit the maximum tries allowed or the code is invalid! No worries—just generate a new code to move forward.", // Example message
+    "data": null
+    // Potentially "error_code": "MAX_ATTEMPTS" or "INVALID_CODE"
+}
+</code></pre>
+<p class="has-line-data" data-line-start="180" data-line-end="181"><em>(Actual message and structure might vary based on backend implementation)</em></p>
+</li>
+<li class="has-line-data" data-line-start="182" data-line-end="192">
+<p class="has-line-data" data-line-start="182" data-line-end="183"><strong><code>401 Unauthorized</code></strong> (Invalid Headers)</p>
+<pre><code class="has-line-data" data-line-start="184" data-line-end="191" class="language-json">{
+    "success": false,
+    "message": "Invalid Signature" / "Invalid timestamp", // Specific message may vary
+    "data": null
+    // Potentially "error_code": "INVALID_SIGNATURE" or "INVALID_TIMESTAMP"
+}
+</code></pre>
+</li>
+<li class="has-line-data" data-line-start="192" data-line-end="202">
+<p class="has-line-data" data-line-start="192" data-line-end="193"><strong><code>422 Unprocessable Entity</code></strong> (Invalid Request Body / Missing Fields)</p>
+<pre><code class="has-line-data" data-line-start="194" data-line-end="201" class="language-json">{
+    "success": false,
+    "message": "Validation failed: uniqueCode should not be empty, arcadeCode should not be empty", // Example message
+    "data": null,
+    // Potentially "error_code": "VALIDATION_ERROR", "errors": { "uniqueCode": [...], "arcadeCode": [...] }
+}
+</code></pre>
+<p class="has-line-data" data-line-start="201" data-line-end="202"><em>(Will occur if <code>uniqueCode</code> or <code>arcadeCode</code> are missing or invalid based on DTO validation)</em></p>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="has-line-data" data-line-start="204" data-line-end="211">
+<p class="has-line-data" data-line-start="204" data-line-end="205"><strong>Signature Code Specifics (C# Example):</strong></p>
+<pre><code class="has-line-data" data-line-start="206" data-line-end="210" class="language-csharp"><span class="hljs-comment">// Use "/auth" as the endpointPath when calling GenerateSignature</span>
+<span class="hljs-comment">// Ensure bodyRaw contains the JSON with both uniqueCode and arcadeCode</span>
+<span class="hljs-keyword">string</span> signature = GenerateSignature(bodyRaw, timestamp, <span class="hljs-string">"/auth"</span>);
+</code></pre>
+</li>
+<li class="has-line-data" data-line-start="211" data-line-end="261">
+<p class="has-line-data" data-line-start="211" data-line-end="212"><strong>Request/Response Classes (C# - Unity/Godot):</strong></p>
+<pre><code class="has-line-data" data-line-start="213" data-line-end="260" class="language-csharp"><span class="hljs-keyword">using</span> System;
+<span class="hljs-keyword">using</span> System.Collections.Generic; <span class="hljs-comment">// For potential error details</span>
+
+<span class="hljs-comment">// Request DTO</span>
+[Serializable]
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">ValidateCodeRequestDto</span>
+{
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">string</span> uniqueCode;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">string</span> arcadeCode;
+}
+
+<span class="hljs-comment">// Success Response Structure (Root)</span>
+[Serializable]
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">AuthSuccessResponse</span>
+{
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">bool</span> success;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">string</span> message;
+    <span class="hljs-keyword">public</span> AuthResponseData data;
+}
+
+<span class="hljs-comment">// Data part of the Success Response</span>
+[Serializable]
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">AuthResponseData</span>
+{
+    <span class="hljs-keyword">public</span> UserData user;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">string</span> attemptId;
+}
+
+<span class="hljs-comment">// User details within the data</span>
+[Serializable]
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">UserData</span>
+{
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">string</span> userPlaygroundId;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">string</span> username;
+}
+
+<span class="hljs-comment">// General Error Response Structure (Example)</span>
+[Serializable]
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">ErrorResponse</span>
+{
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">bool</span> success = <span class="hljs-keyword">false</span>;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">string</span> message;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">object</span> data = <span class="hljs-keyword">null</span>; <span class="hljs-comment">// Typically null for errors</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">string</span> error_code; <span class="hljs-comment">// Optional: For specific error types</span>
+    <span class="hljs-keyword">public</span> Dictionary&lt;<span class="hljs-keyword">string</span>, List&lt;<span class="hljs-keyword">string</span>&gt;&gt; errors; <span class="hljs-comment">// Optional: For validation errors</span>
+}
+</code></pre>
+</li>
+<li class="has-line-data" data-line-start="261" data-line-end="389">
+<p class="has-line-data" data-line-start="261" data-line-end="262"><strong>Request Example (Unity C# - <code>IEnumerator</code> - Updated):</strong></p>
+<pre><code class="has-line-data" data-line-start="263" data-line-end="389" class="language-csharp"><span class="hljs-keyword">using</span> UnityEngine;
+<span class="hljs-keyword">using</span> UnityEngine.Networking;
+<span class="hljs-keyword">using</span> System.Collections;
+<span class="hljs-keyword">using</span> System.Text;
+<span class="hljs-keyword">using</span> System;
+<span class="hljs-keyword">using</span> UnityEngine.SceneManagement;
+<span class="hljs-keyword">using</span> TMPro;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">GameAuthenticator</span> : <span class="hljs-title">MonoBehaviour</span> <span class="hljs-comment">// Renamed for clarity</span>
+{
+    <span class="hljs-keyword">public</span> TMP_Text textMessage;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> UserPlaygroundId { <span class="hljs-keyword">get</span>; <span class="hljs-keyword">private</span> <span class="hljs-keyword">set</span>; } <span class="hljs-comment">// Store the necessary ID</span>
+    <span class="hljs-comment">// attemptId might still be useful for logging/tracking, but not sent to /point</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> AttemptId { <span class="hljs-keyword">get</span>; <span class="hljs-keyword">private</span> <span class="hljs-keyword">set</span>; }
+
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">const</span> <span class="hljs-keyword">string</span> DevApiUrl = <span class="hljs-string">"https://quantum-games-dev.fly.dev"</span>;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">const</span> <span class="hljs-keyword">string</span> SignatureSecret = <span class="hljs-string">"oqtZiTK6y1S8IwmbBMWHtw=="</span>; <span class="hljs-comment">// Dev Secret</span>
+
+    <span class="hljs-comment">// Call this with the user's code and the arcade's code</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">StartAuthentication</span>(<span class="hljs-params"><span class="hljs-keyword">string</span> userCode, <span class="hljs-keyword">string</span> arcadeIdentifier</span>)
+    </span>{
+        StartCoroutine(AuthenticateUser(userCode, arcadeIdentifier));
+    }
+
+    <span class="hljs-function">IEnumerator <span class="hljs-title">AuthenticateUser</span>(<span class="hljs-params"><span class="hljs-keyword">string</span> userCode, <span class="hljs-keyword">string</span> arcadeIdentifier</span>)
+    </span>{
+        <span class="hljs-keyword">if</span> (textMessage != <span class="hljs-keyword">null</span>)
+        {
+            textMessage.color = Color.black;
+            textMessage.text = <span class="hljs-string">"Please wait... connecting to server"</span>;
+        }
+
+        <span class="hljs-keyword">string</span> url = $<span class="hljs-string">"{DevApiUrl}/auth"</span>;
+        <span class="hljs-comment">// Use the updated Request DTO</span>
+        ValidateCodeRequestDto request = <span class="hljs-keyword">new</span>() {
+             uniqueCode = userCode,
+             arcadeCode = arcadeIdentifier
+        };
+        <span class="hljs-keyword">string</span> requestBody = JsonUtility.ToJson(request);
+        <span class="hljs-keyword">byte</span>[] bodyRaw = Encoding.UTF8.GetBytes(requestBody);
+
+        DateTime now = DateTime.UtcNow;
+        <span class="hljs-keyword">string</span> timestamp = now.ToString(<span class="hljs-string">"yyyy-MM-ddTHH:mm:ssZ"</span>);
+        <span class="hljs-comment">// Ensure GenerateSignature exists and uses the correct secret/logic</span>
+        <span class="hljs-keyword">string</span> signature = GenerateSignature(bodyRaw, timestamp, <span class="hljs-string">"/auth"</span>);
+
+        <span class="hljs-keyword">using</span> (UnityWebRequest webRequest = <span class="hljs-keyword">new</span> UnityWebRequest(url, <span class="hljs-string">"POST"</span>))
+        {
+            webRequest.uploadHandler = <span class="hljs-keyword">new</span> UploadHandlerRaw(bodyRaw);
+            webRequest.downloadHandler = <span class="hljs-keyword">new</span> DownloadHandlerBuffer();
+            webRequest.SetRequestHeader(<span class="hljs-string">"Content-Type"</span>, <span class="hljs-string">"application/json"</span>);
+            <span class="hljs-comment">// X-Gamecode removed</span>
+            webRequest.SetRequestHeader(<span class="hljs-string">"X-Timestamp"</span>, timestamp);
+            webRequest.SetRequestHeader(<span class="hljs-string">"X-Signature"</span>, signature);
+
+            <span class="hljs-keyword">yield</span> <span class="hljs-keyword">return</span> webRequest.SendWebRequest();
+
+            <span class="hljs-keyword">if</span> (webRequest.result == UnityWebRequest.Result.Success)
+            {
+                <span class="hljs-comment">// Parse the standardized success response</span>
+                AuthSuccessResponse response = JsonUtility.FromJson&lt;AuthSuccessResponse&gt;(webRequest.downloadHandler.text);
+                <span class="hljs-keyword">if</span> (response != <span class="hljs-keyword">null</span> &amp;&amp; response.success &amp;&amp; response.data != <span class="hljs-keyword">null</span> &amp;&amp; response.data.user != <span class="hljs-keyword">null</span>) {
+                     <span class="hljs-keyword">if</span> (textMessage != <span class="hljs-keyword">null</span>)
+                     {
+                         textMessage.color = Color.black;
+                         textMessage.text = response.message; <span class="hljs-comment">// Display success message</span>
+                     }
+
+                     <span class="hljs-comment">// Store credentials from the 'data' field</span>
+                     UserPlaygroundId = response.data.user.userPlaygroundId;
+                     AttemptId = response.data.attemptId; <span class="hljs-comment">// Store if needed</span>
+
+                     Debug.Log($<span class="hljs-string">"Authentication successful for {response.data.user.username}. User ID: {UserPlaygroundId}"</span>);
+                     SceneManager.LoadScene(<span class="hljs-string">"GameScene"</span>); <span class="hljs-comment">// Load next scene</span>
+                } <span class="hljs-keyword">else</span> {
+                     <span class="hljs-comment">// Handle cases where parsing succeeded but response structure was unexpected</span>
+                     HandleAuthError(webRequest, <span class="hljs-string">"Unexpected success response structure"</span>);
+                }
+            }
+            <span class="hljs-keyword">else</span>
+            {
+                HandleAuthError(webRequest);
+            }
+        }
+    }
+
+    <span class="hljs-comment">// Helper to handle errors consistently</span>
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">HandleAuthError</span>(<span class="hljs-params">UnityWebRequest webRequest, <span class="hljs-keyword">string</span> defaultMessage = <span class="hljs-keyword">null</span></span>) </span>{
+         <span class="hljs-keyword">string</span> errorJson = webRequest.downloadHandler.text;
+         <span class="hljs-keyword">string</span> errorMessage = defaultMessage ?? $<span class="hljs-string">"Error {webRequest.responseCode}"</span>;
+         <span class="hljs-keyword">try</span> {
+              <span class="hljs-comment">// Try parsing the standard error format</span>
+              ErrorResponse error = JsonUtility.FromJson&lt;ErrorResponse&gt;(errorJson);
+              <span class="hljs-keyword">if</span> (error != <span class="hljs-keyword">null</span> &amp;&amp; !<span class="hljs-keyword">string</span>.IsNullOrEmpty(error.message)) {
+                   errorMessage = error.message;
+              }
+         } <span class="hljs-keyword">catch</span> {
+             Debug.LogError($<span class="hljs-string">"Raw Error Response: {errorJson}"</span>);
+         }
+
+         <span class="hljs-keyword">if</span> (textMessage != <span class="hljs-keyword">null</span>)
+         {
+             textMessage.color = Color.red;
+             textMessage.text = errorMessage;
+         }
+          Debug.LogError($<span class="hljs-string">"Authentication failed: {errorMessage}"</span>);
+    }
+
+    <span class="hljs-comment">// Include the static GenerateSignature function here (from Headers section)</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> <span class="hljs-title">GenerateSignature</span>(<span class="hljs-params"><span class="hljs-keyword">byte</span>[] body, <span class="hljs-keyword">string</span> timestamp, <span class="hljs-keyword">string</span> endpointPath</span>)
+    </span>{
+        <span class="hljs-comment">// ... (Implementation from Headers section) ...</span>
+         <span class="hljs-keyword">byte</span>[] hashBody;
+         <span class="hljs-keyword">using</span> (<span class="hljs-keyword">var</span> sha256 = System.Security.Cryptography.SHA256.Create()) { hashBody = sha256.ComputeHash(body); }
+         <span class="hljs-keyword">string</span> hexHash = BitConverter.ToString(hashBody).Replace(<span class="hljs-string">"-"</span>, <span class="hljs-string">""</span>).ToLowerInvariant();
+         <span class="hljs-keyword">string</span> signatureBase = $<span class="hljs-string">"POST:{endpointPath}:{hexHash}:{timestamp}"</span>;
+         <span class="hljs-keyword">using</span> (<span class="hljs-keyword">var</span> hmac = <span class="hljs-keyword">new</span> System.Security.Cryptography.HMACSHA512(Encoding.UTF8.GetBytes(SignatureSecret))) {
+             <span class="hljs-keyword">byte</span>[] signatureBytes = hmac.ComputeHash(Encoding.UTF8.GetBytes(signatureBase));
+             <span class="hljs-keyword">return</span> Convert.ToBase64String(signatureBytes);
+         }
+    }
+}
+
+<span class="hljs-comment">// Include C# Class Definitions here (ValidateCodeRequestDto, AuthSuccessResponse, AuthResponseData, UserData, ErrorResponse)</span>
+<span class="hljs-comment">// ...</span>
+</code></pre>
+</li>
+<li class="has-line-data" data-line-start="389" data-line-end="391">
+<p class="has-line-data" data-line-start="389" data-line-end="390"><strong>Godot C# Example:</strong> Adapt the Godot C# example similarly, using <code>System.Text.Json</code> for potentially better JSON handling (especially with nested objects and potential error structures), updating the request DTO, removing <code>X-Gamecode</code>, and parsing the new standardized success/error response formats.</p>
+</li>
+</ul>
+<hr>
+<h3 class="code-line" data-line-start=393 data-line-end=394 ><a id="POST_point__Submit_Player_Points_393"></a><code>POST /point</code> - Submit Player Points</h3>
+<p class="has-line-data" data-line-start="395" data-line-end="396">Submits the player’s points for the authenticated session using the <code>userPlaygroundId</code> obtained from <code>/auth</code>.</p>
+<ul>
+<li class="has-line-data" data-line-start="397" data-line-end="404">
+<p class="has-line-data" data-line-start="397" data-line-end="398"><strong>Headers:</strong></p>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Name</th>
+<th>Content</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>X-Signature</code></td>
+<td><em>Generated Signature</em></td>
+<td>Signature generated for this request (see above)</td>
+</tr>
+<tr>
+<td><code>X-Timestamp</code></td>
+<td><em>Current Timestamp</em></td>
+<td>Timestamp used for the signature (ISO 8601 UTC)</td>
+</tr>
+<tr>
+<td><code>Content-Type</code></td>
+<td><code>application/json</code></td>
+<td>Specifies request body format</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li class="has-line-data" data-line-start="404" data-line-end="408">
+<p class="has-line-data" data-line-start="404" data-line-end="405"><strong>Request Body DTO (<code>SubmitPointDto</code>):</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="405" data-line-end="406"><code>userPlaygroundId</code> (string): The ID obtained from the successful <code>/auth</code> response (<code>data.user.userPlaygroundId</code>). <strong>Required.</strong></li>
+<li class="has-line-data" data-line-start="406" data-line-end="408"><code>point</code> (integer): The number of points the player scored in the session. <strong>Required.</strong></li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="408" data-line-end="417">
+<p class="has-line-data" data-line-start="408" data-line-end="409"><strong>Request Body Example:</strong></p>
+<pre><code class="has-line-data" data-line-start="410" data-line-end="415" class="language-json">{
+  "<span class="hljs-attribute">userPlaygroundId</span>": <span class="hljs-value"><span class="hljs-string">"8bba8f9c-3058-4277-9e24-fc4b8f87efda"</span></span>,
+  "<span class="hljs-attribute">point</span>": <span class="hljs-value"><span class="hljs-number">2000</span>
+</span>}
+</code></pre>
+<p class="has-line-data" data-line-start="415" data-line-end="416"><em>(Note: <code>attemptId</code> is NOT sent in the request body anymore).</em></p>
+</li>
+<li class="has-line-data" data-line-start="417" data-line-end="464">
+<p class="has-line-data" data-line-start="417" data-line-end="418"><strong>Responses:</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="419" data-line-end="432">
+<p class="has-line-data" data-line-start="419" data-line-end="420"><strong><code>200 OK</code></strong> (Success)</p>
+<pre><code class="has-line-data" data-line-start="421" data-line-end="431" class="language-json">{
+    "success": true,
+    "message": "Success added points",
+    "data": {
+        "playgroundId": "8bba8f9c-3058-4277-9e24-fc4b8f87efda", // Confirms the user ID points were added to
+        "addedPoint": 200 // Actual points recorded (could potentially differ from points sent based on backend logic/caps)
+        // attemptId is NOT returned here anymore
+    }
+}
+</code></pre>
+</li>
+<li class="has-line-data" data-line-start="432" data-line-end="443">
+<p class="has-line-data" data-line-start="432" data-line-end="433"><strong><code>400 Bad Request</code></strong> (Points already submitted for this user context, or other business logic failure)</p>
+<pre><code class="has-line-data" data-line-start="434" data-line-end="441" class="language-json">{
+    "success": false,
+    "message": "Oops! Points may have already been submitted for this session, or the session is invalid.", // Example message
+    "data": null
+    // Potentially "error_code": "POINTS_ALREADY_SUBMITTED" or "INVALID_SESSION"
+}
+</code></pre>
+<p class="has-line-data" data-line-start="441" data-line-end="442"><em>(The specific error for already submitted points depends on backend logic now that <code>attemptId</code> isn’t the primary key here).</em></p>
+</li>
+<li class="has-line-data" data-line-start="443" data-line-end="453">
+<p class="has-line-data" data-line-start="443" data-line-end="444"><strong><code>401 Unauthorized</code></strong> (Invalid Headers or Unauthorized <code>userPlaygroundId</code>)</p>
+<pre><code class="has-line-data" data-line-start="445" data-line-end="452" class="language-json">{
+    "success": false,
+    "message": "Invalid Signature" / "Invalid timestamp" / "Unauthorized User", // Specific message may vary
+    "data": null
+     // Potentially "error_code": "INVALID_SIGNATURE" / "INVALID_TIMESTAMP" / "UNAUTHORIZED_USER"
+}
+</code></pre>
+</li>
+<li class="has-line-data" data-line-start="453" data-line-end="464">
+<p class="has-line-data" data-line-start="453" data-line-end="454"><strong><code>422 Unprocessable Entity</code></strong> (Invalid Request Body / Missing Fields)</p>
+<pre><code class="has-line-data" data-line-start="455" data-line-end="462" class="language-json">{
+   "success": false,
+   "message": "Validation failed: userPlaygroundId should not be empty, point must be a number", // Example message
+   "data": null,
+    // Potentially "error_code": "VALIDATION_ERROR", "errors": { ... }
+}
+</code></pre>
+<p class="has-line-data" data-line-start="462" data-line-end="463"><em>(Will occur if <code>userPlaygroundId</code> or <code>point</code> are missing or invalid).</em></p>
+</li>
+</ul>
+</li>
+<li class="has-line-data" data-line-start="464" data-line-end="471">
+<p class="has-line-data" data-line-start="464" data-line-end="465"><strong>Signature Code Specifics (C# Example):</strong></p>
+<pre><code class="has-line-data" data-line-start="466" data-line-end="470" class="language-csharp"><span class="hljs-comment">// Use "/point" as the endpointPath when calling GenerateSignature</span>
+<span class="hljs-comment">// Ensure bodyRaw contains the JSON with userPlaygroundId and point</span>
+<span class="hljs-keyword">string</span> signature = GenerateSignature(bodyRaw, timestamp, <span class="hljs-string">"/point"</span>);
+</code></pre>
+</li>
+<li class="has-line-data" data-line-start="471" data-line-end="506">
+<p class="has-line-data" data-line-start="471" data-line-end="472"><strong>Request/Response Classes (C# - Unity/Godot):</strong></p>
+<pre><code class="has-line-data" data-line-start="473" data-line-end="505" class="language-csharp"><span class="hljs-keyword">using</span> System;
+<span class="hljs-keyword">using</span> System.Collections.Generic;
+
+<span class="hljs-comment">// Request DTO</span>
+[Serializable]
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">SubmitPointDto</span>
+{
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">string</span> userPlaygroundId;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> point; <span class="hljs-comment">// Changed from score, removed attemptId</span>
+}
+
+<span class="hljs-comment">// Success Response Structure (Root)</span>
+[Serializable]
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">PointSuccessResponse</span>
+{
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">bool</span> success;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">string</span> message;
+    <span class="hljs-keyword">public</span> PointResponseData data;
+}
+
+<span class="hljs-comment">// Data part of the Success Response</span>
+[Serializable]
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">PointResponseData</span>
+{
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">string</span> playgroundId;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> addedPoint; <span class="hljs-comment">// Assuming int, adjust if it can be string/decimal</span>
+    <span class="hljs-comment">// attemptId removed</span>
+}
+
+<span class="hljs-comment">// Can reuse the general ErrorResponse class from /auth section for error handling</span>
+<span class="hljs-comment">// [Serializable] public class ErrorResponse { ... }</span>
+</code></pre>
+</li>
+<li class="has-line-data" data-line-start="506" data-line-end="636">
+<p class="has-line-data" data-line-start="506" data-line-end="507"><strong>Request Example (Unity C# - <code>IEnumerator</code> - Updated):</strong></p>
+<pre><code class="has-line-data" data-line-start="508" data-line-end="636" class="language-csharp"><span class="hljs-keyword">using</span> UnityEngine;
+<span class="hljs-keyword">using</span> UnityEngine.Networking;
+<span class="hljs-keyword">using</span> System.Collections;
+<span class="hljs-keyword">using</span> System.Text;
+<span class="hljs-keyword">using</span> System;
+<span class="hljs-keyword">using</span> TMPro;
+<span class="hljs-keyword">using</span> UnityEngine.UI;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">PointSubmitter</span> : <span class="hljs-title">MonoBehaviour</span> <span class="hljs-comment">// Renamed for clarity</span>
+{
+    <span class="hljs-keyword">public</span> TMP_Text scoreMessage;
+    <span class="hljs-keyword">public</span> Button retryButton;
+
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">const</span> <span class="hljs-keyword">string</span> DevApiUrl = <span class="hljs-string">"https://quantum-games-dev.fly.dev"</span>;
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">const</span> <span class="hljs-keyword">string</span> SignatureSecret = <span class="hljs-string">"oqtZiTK6y1S8IwmbBMWHtw=="</span>; <span class="hljs-comment">// Dev Secret</span>
+
+    <span class="hljs-comment">// Call this when the game ends, passing the final points</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">SubmitPlayerPoints</span>(<span class="hljs-params"><span class="hljs-keyword">int</span> finalPoints</span>)
+    </span>{
+         <span class="hljs-comment">// Get the authenticated user ID (assuming stored statically in GameAuthenticator)</span>
+         <span class="hljs-keyword">string</span> currentUserId = GameAuthenticator.UserPlaygroundId;
+
+         <span class="hljs-keyword">if</span> (<span class="hljs-keyword">string</span>.IsNullOrEmpty(currentUserId))
+         {
+              Debug.LogError(<span class="hljs-string">"Cannot submit points: UserPlaygroundId is missing. Was authentication successful?"</span>);
+              <span class="hljs-keyword">if</span> (scoreMessage != <span class="hljs-keyword">null</span>) {
+                  scoreMessage.color = Color.red;
+                  scoreMessage.text = <span class="hljs-string">"Error: Not authenticated."</span>;
+              }
+              <span class="hljs-keyword">if</span> (retryButton != <span class="hljs-keyword">null</span>) retryButton.gameObject.SetActive(<span class="hljs-keyword">true</span>); <span class="hljs-comment">// Show retry even if auth failed previously</span>
+              <span class="hljs-keyword">return</span>;
+         }
+        StartCoroutine(SendPoints(currentUserId, finalPoints));
+    }
+
+    <span class="hljs-function">IEnumerator <span class="hljs-title">SendPoints</span>(<span class="hljs-params"><span class="hljs-keyword">string</span> userId, <span class="hljs-keyword">int</span> points</span>)
+    </span>{
+        <span class="hljs-keyword">if</span> (scoreMessage != <span class="hljs-keyword">null</span>)
+        {
+            scoreMessage.color = Color.black;
+            scoreMessage.text = <span class="hljs-string">"Please wait... submitting points"</span>;
+        }
+        <span class="hljs-keyword">if</span> (retryButton != <span class="hljs-keyword">null</span>) retryButton.gameObject.SetActive(<span class="hljs-keyword">false</span>);
+
+        <span class="hljs-keyword">string</span> url = $<span class="hljs-string">"{DevApiUrl}/point"</span>;
+        <span class="hljs-comment">// Use the updated Request DTO</span>
+        SubmitPointDto request = <span class="hljs-keyword">new</span>()
+        {
+            userPlaygroundId = userId,
+            point = points <span class="hljs-comment">// Use 'point' field</span>
+            <span class="hljs-comment">// attemptId removed</span>
+        };
+
+        <span class="hljs-keyword">string</span> requestBody = JsonUtility.ToJson(request);
+        <span class="hljs-keyword">byte</span>[] bodyRaw = Encoding.UTF8.GetBytes(requestBody);
+
+        DateTime now = DateTime.UtcNow;
+        <span class="hljs-keyword">string</span> timestamp = now.ToString(<span class="hljs-string">"yyyy-MM-ddTHH:mm:ssZ"</span>);
+        <span class="hljs-comment">// Ensure GenerateSignature exists and uses the correct secret/logic</span>
+        <span class="hljs-keyword">string</span> signature = GameAuthenticator.GenerateSignature(bodyRaw, timestamp, <span class="hljs-string">"/point"</span>); <span class="hljs-comment">// Assuming GenerateSignature is accessible</span>
+
+        <span class="hljs-keyword">using</span> (UnityWebRequest webRequest = <span class="hljs-keyword">new</span> UnityWebRequest(url, <span class="hljs-string">"POST"</span>))
+        {
+            webRequest.uploadHandler = <span class="hljs-keyword">new</span> UploadHandlerRaw(bodyRaw);
+            webRequest.downloadHandler = <span class="hljs-keyword">new</span> DownloadHandlerBuffer();
+            webRequest.SetRequestHeader(<span class="hljs-string">"Content-Type"</span>, <span class="hljs-string">"application/json"</span>);
+            <span class="hljs-comment">// X-Gamecode removed</span>
+            webRequest.SetRequestHeader(<span class="hljs-string">"X-Timestamp"</span>, timestamp);
+            webRequest.SetRequestHeader(<span class="hljs-string">"X-Signature"</span>, signature);
+
+            <span class="hljs-keyword">yield</span> <span class="hljs-keyword">return</span> webRequest.SendWebRequest();
+
+            <span class="hljs-keyword">if</span> (webRequest.result == UnityWebRequest.Result.Success)
+            {
+                 <span class="hljs-comment">// Parse the standardized success response</span>
+                 PointSuccessResponse response = JsonUtility.FromJson&lt;PointSuccessResponse&gt;(webRequest.downloadHandler.text);
+
+                 <span class="hljs-keyword">if</span>(response != <span class="hljs-keyword">null</span> &amp;&amp; response.success &amp;&amp; response.data != <span class="hljs-keyword">null</span>) {
+                    <span class="hljs-keyword">if</span> (scoreMessage != <span class="hljs-keyword">null</span>)
+                    {
+                        scoreMessage.color = Color.black;
+                        scoreMessage.text = $<span class="hljs-string">"{response.message}. You gained {response.data.addedPoint} point(s)!"</span>;
+                    }
+                    Debug.Log($<span class="hljs-string">"Points submitted successfully. Points added: {response.data.addedPoint}"</span>);
+
+                    <span class="hljs-comment">// Invalidate local state if necessary (e.g., prevent resubmit button press)</span>
+                    <span class="hljs-comment">// Since attemptId is gone, you might disable the submit button or rely on server rejection</span>
+                 } <span class="hljs-keyword">else</span> {
+                     HandlePointError(webRequest, <span class="hljs-string">"Unexpected success response structure"</span>);
+                 }
+            }
+            <span class="hljs-keyword">else</span>
+            {
+                 HandlePointError(webRequest);
+            }
+             <span class="hljs-comment">// Always show retry button after attempt (success or fail)</span>
+             <span class="hljs-keyword">if</span> (retryButton != <span class="hljs-keyword">null</span>) retryButton.gameObject.SetActive(<span class="hljs-keyword">true</span>);
+        }
+    }
+
+     <span class="hljs-comment">// Helper to handle errors consistently</span>
+     <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">HandlePointError</span>(<span class="hljs-params">UnityWebRequest webRequest, <span class="hljs-keyword">string</span> defaultMessage = <span class="hljs-keyword">null</span></span>) </span>{
+         <span class="hljs-keyword">string</span> errorJson = webRequest.downloadHandler.text;
+         <span class="hljs-keyword">string</span> errorMessage = defaultMessage ?? $<span class="hljs-string">"Error {webRequest.responseCode}"</span>;
+         <span class="hljs-keyword">try</span> {
+              <span class="hljs-comment">// Try parsing the standard error format (reuse ErrorResponse class)</span>
+              ErrorResponse error = JsonUtility.FromJson&lt;ErrorResponse&gt;(errorJson);
+               <span class="hljs-keyword">if</span> (error != <span class="hljs-keyword">null</span> &amp;&amp; !<span class="hljs-keyword">string</span>.IsNullOrEmpty(error.message)) {
+                   errorMessage = error.message;
+               }
+         } <span class="hljs-keyword">catch</span> {
+             Debug.LogError($<span class="hljs-string">"Raw Error Response: {errorJson}"</span>);
+         }
+
+         <span class="hljs-keyword">if</span> (scoreMessage != <span class="hljs-keyword">null</span>)
+         {
+             scoreMessage.color = Color.red;
+             scoreMessage.text = errorMessage;
+         }
+          Debug.LogError($<span class="hljs-string">"Point submission failed: {errorMessage}"</span>);
+     }
+
+    <span class="hljs-comment">// Note: Assumes GameAuthenticator class with GenerateSignature and stored UserPlaygroundId exists.</span>
+}
+
+<span class="hljs-comment">// Include C# Class Definitions here (SubmitPointDto, PointSuccessResponse, PointResponseData, ErrorResponse)</span>
+<span class="hljs-comment">// ...</span>
+</code></pre>
+</li>
+</ul>
+
+</body></html>
